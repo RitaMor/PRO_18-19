@@ -6,6 +6,7 @@ import javax.swing.text.StyledEditorKit.ForegroundAction;
 import modelo.Persona;
 
 public class Ejercicios {
+	
 
 	// --------------- 04/10/2018 ACTIVIDAD: BUSCAR EN LA API
 	// -------------------------------
@@ -532,21 +533,29 @@ public class Ejercicios {
 	// 1. Dada una lista (array) de enteros (int), obtener la lista INVERTIDA sobre
 	// si misma
 
-	public void invertirLista(int[] lista) {
-
-		int[] listaInvertida = new int[lista.length];
-
-		for (int i = lista.length - 1; i >= 0; i--) { // itera desde el último elemento del array hasta cero y disminuye
-			listaInvertida[(lista.length - 1) - i] = lista[i]; // resto uno a lenght para que no salga de rango y resto
-															// valor de i que es ahora largo de array para que
-																// empiece en cero, y asigno a listaInvertida lista en
-																// posicion de i
+	
+	
+	public void invertirLista(int[] lista) { //Hecho en clase
+		int aux;
+		for (int i = 0; i < lista.length / 2; i++) {
+			aux = lista[i];
+			lista[i] = lista[lista.length - i - 1];
+			lista[lista.length - i - 1] = aux;
 
 		}
-		for (int i = 0; i < listaInvertida.length; i++) {
-			lista[i] = listaInvertida[i];
-			System.out.println(listaInvertida[i] + ",");
+
+	}
+	
+	// ---------- 29/11/2018
+	public int[] invertirLista2(int[] lista) { //Devuelve el resultado en otra lista.
+		int[] resultado = new int[lista.length];
+		
+		for (int i = 0; i < lista.length; i++) {
+			resultado[(lista.length - 1) - i] = lista[i];
+
 		}
+		return resultado;
+
 	}
 
 	// 2. Dadas dos listas PREVIAMENTE ORDENADAS, se pide obtener la lista MEZCLA de
@@ -557,23 +566,49 @@ public class Ejercicios {
 		ordenaArrayNumeros(l2);
 		int[] mezcla = new int[l1.length + l2.length];
 
-		// Mezclar los dos arrays en el array mezcla.
-		// Utilizar el iterador i para los arrays l1 y l2.
-		// Utilizar el iterador j para el array mezlca.
-
-		int j = 0;
 		for (int i = 0; i < l1.length; i++) {
-			mezcla[j] = l1[i]; // copia primer elemento de l1 en el array mezcla.
-			j++; // avanza uno en el array mezcla.
-			mezcla[j] = l2[i]; // copia primer elemento de l2 en el array mezcla.
-			j++; // Para que avance el iterador i en la próxima vuelta hay que añadir j++.
+			mezcla[i] = l1[i];
 		}
-		for (int i = 0; i < mezcla.length; i++) {
-
-			ordenaArrayNumeros(mezcla); // Por último ordena array mezcla con llamada de método.
-			System.out.println(mezcla[i]);
+		for (int j = 0; j < l2.length; j++) {
+			mezcla[j + l1.length] = l2[j];
+			System.out.println(mezcla[j]);
 		}
+		ordenaArrayNumeros(mezcla);
 		return mezcla;
+	}
+	
+	// 22/11/2018
+	// Mismo ejercicio con otra solucion
+	public int[] mezclaListasOrdenadas2(int[] l1, int[] l2) {
+		int[] resultado = new int[l1.length + l2.length];
+		int i = 0;
+		int j = 0;
+		int k = 0;
+
+		while (k < l1.length + l2.length) {
+		//while (i < l1.length || j < l2.length) {
+			try {
+
+				
+				if (l1[i] < l2[j]) {
+					resultado[k] = l1[i];
+					i++;
+				} else {
+					resultado[k] = l2[j];
+					j++;
+				}
+				k++;
+			} catch (ArrayIndexOutOfBoundsException e) {
+				if (i == l1.length) // fin de l1...
+					l1[--i] = Integer.MAX_VALUE;
+				else{
+					l2[--j] = Integer.MAX_VALUE;
+
+				}
+			}
+		}
+
+		return resultado;
 	}
 
 	// 3. Dada una cadena , obtener la cadena INVIRTIENDO sus caracteres (char)
@@ -582,9 +617,57 @@ public class Ejercicios {
 	public String invertirCaracteres(String cadena) {
 		String listaInvertida = new String();
 		for (int i = cadena.length() - 1; i >= 0; i--)
-			listaInvertida += cadena.charAt(i);
+			// listaInvertida += cadena.charAt(i); // Solución con caracter.
+			listaInvertida = listaInvertida.concat(cadena.substring(i, i + 1)); // Otra solución, con cadena y método
+																				// "concat".
 		return listaInvertida;
 
+	}
+
+	// 21/11/2018
+	// Ordena filas de matriz
+	public void ordenaFilasMatriz(int[][] matriz) {
+		for (int i = 0; i < matriz.length; i++) {
+			ordenaArrayNumeros(matriz[i]);
+		}
+	}
+
+	// -------------- 27/11/2018
+	public int[] matrizToArrayOrdenado(int[][] matriz) {
+				
+		int[] resultado = new int[1];
+		ordenaFilasMatriz(matriz);
+		
+		for (int i = 0; i < matriz.length; i++) 
+				// Se crea un nuevo array con la unión de matriz[i] y result
+				// Y se guarda en result.
+				
+				resultado = mezclaListasOrdenadas(resultado, matriz[i]);
+			
+		
+		return resultado;
+
+	}
+	// -------------- 28/11/2018
+	private Persona[] persona; 
+	
+	public void hijosPersonas() {
+		
+		for (int i = 0; i < persona.length; i++) {
+			
+			Persona[] hijos = persona[i].getHijosBiologicos();
+			System.out.println("Padre"+ persona[i].getNombre());
+			
+			if (hijos!= null) {
+				for (int j = 0; j < hijos.length; j++) {
+					System.out.println("Hijos"+hijos[i].getNombre());
+			
+				}
+			
+			}
+		}
+				
+		
 	}
 
 }

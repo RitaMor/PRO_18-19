@@ -8,7 +8,10 @@ public class Persona {
 	 private String nombre;
 	 private int longitudPaso;
 	 private LocalDate fecha_nac; // Clase "LocalDate" manejar fechas
-	 
+	 private char sexo; // 'M' 'F'
+	 private Persona[] hijosBiologicos;
+	 private Persona padre;
+	 private Persona madre;
 	 
 	 
 	 public Persona() {
@@ -18,19 +21,35 @@ public class Persona {
 		this.fecha_nac=LocalDate.now();
 		this.longitudPaso=33;
 		
+	
+		
 	}
 
-	public Persona(String nif, String nombre, int longitudPaso, LocalDate fecha_nac) {
+	 
+	 public Persona(String nif, String nombre, int longitudPaso, LocalDate fecha_nac, char sexo,
+			Persona[] hijosBiologicos, Persona padre, Persona madre) {
 		super();
 		this.nif = nif;
 		this.nombre = nombre;
 		this.longitudPaso = longitudPaso;
-		this.fecha_nac = null;
+		this.fecha_nac = fecha_nac;
+		this.sexo = sexo;
+		this.hijosBiologicos = hijosBiologicos;
+		this.padre = padre;
+		this.madre = madre;
 	}
 
-	
-	 
-	 public int caminar (int numPasos) {
+
+	public Persona(String nif, String nombre, int longitudPaso, LocalDate fecha_nac, char sexo) {
+		super();
+		this.nif = nif;
+		this.nombre = nombre;
+		this.longitudPaso = longitudPaso;
+		this.fecha_nac =fecha_nac;
+		this.sexo = sexo;
+	}
+
+	public int caminar (int numPasos) {
 		 
 		 double a=9.0;
 		 double raiz = Math.sqrt(a);
@@ -42,6 +61,38 @@ public class Persona {
 		 return numPasos * longitudPaso / 100;
 		 
 	 }
+
+	public char getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+
+	public Persona[] getHijosBiologicos() {
+		return hijosBiologicos;
+	}
+
+	public void setHijosBiologicos(Persona[] hijosBiologicos) {
+		this.hijosBiologicos = hijosBiologicos;
+	}
+
+	public Persona getPadre() {
+		return padre;
+	}
+
+	public void setPadre(Persona padre) {
+		this.padre = padre;
+	}
+
+	public Persona getMadre() {
+		return madre;
+	}
+
+	public void setMadre(Persona madre) {
+		this.madre = madre;
+	}
 
 	public String getNif() {
 		return nif;

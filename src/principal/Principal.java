@@ -1,5 +1,7 @@
 package principal;
 
+import java.time.LocalDate;
+
 import control.Ejercicios;
 import modelo.Persona;
 
@@ -106,12 +108,12 @@ public class Principal {
 		String[] cadenas= {"sábado ", "lunes ","viernes ","miércoles ","martes "};
 		//ejercicios.ordenaArrayCadenas(cadenas);
 		
-		// 14/11/2018
+		// -------------14/11/2018
 		//int[] lista = ejercicios.generaListaAleatorios(1000, 1, 5000); //crear variable apara recoger la lista
 		//ejercicios.ordenaArrayNumeros(lista);
 		
 		int[][] datos= {
-				{1,4}, 
+				{7,4,6}, 
 				{6},
 				{5,2,3},
 				{4,2,5,1,9,0,3},
@@ -122,21 +124,41 @@ public class Principal {
 		//Ejercicio 2
 		
 		int[] lista1 = {2,3,5,8,9,1,4};
-		ejercicios.invertirLista(lista1);
+		//ejercicios.invertirLista(lista1);
+		
+		// -------------29/11/2018
+		int[] listaInvertida = ejercicios.invertirLista2(lista1);
 		
 		int[] l1 = {2,3,5,8,9,1,4};
 		int[] l2 = {5,4,8,7,9,6,3,6};
-		int[] resultado = ejercicios.mezclaListasOrdenadas(l1, l2);
+		//int[] resultado = ejercicios.mezclaListasOrdenadas(l1, l2);
+		
+		int[] resultado2 = ejercicios.mezclaListasOrdenadas2(l1, l2);
 		
 		
 		//Ejercicio 3
 		String cadena1 = "sé verla al revés";
-		System.out.println(ejercicios.invertirCaracteres(cadena1));
+		//System.out.println(ejercicios.invertirCaracteres(cadena1));
+		
+		ejercicios.ordenaFilasMatriz(datos);
+		
+		int[][] matriz = { { 1, 5, 1 }, { 9, 7, 6 }, { 8, 6, 9 }, { 9}};
+		int[] resultado = ejercicios.matrizToArrayOrdenado(matriz);
+		
+		
+		Persona hijo1 = new Persona("25896347P", "Mario", 16, LocalDate.of(2012, 9, 6), 'M');
+		Persona hijo2 = new Persona("25814563W", "Belen", 18, LocalDate.of(2012, 9, 6), 'F');
+		Persona[] hijos = {hijo1, hijo2};
+		Persona madre = new Persona("35896425F", "Ana", 25, LocalDate.of(2010, 11, 25), 'F');
+		Persona padre = new Persona("5289643L", "Andres", 33, LocalDate.of(1998, 06,8), 'M');
+		Persona madreMadre = new Persona("35896425F", "Juana", 12, LocalDate.of(1990, 04, 21), 'F');
+		Persona padrePadre = new Persona("5289643L", "Antonio", 15, LocalDate.of(2012, 9, 6), 'M');
+		Persona persona2 = new Persona("365894P", "María",33, LocalDate.of(1990, 04, 21), 'F', hijos, padrePadre, madreMadre);
+		
+		System.out.println(persona2);
 		
 		System.out.println();
 		System.out.println("FIN DEL PROGRAMA");
 	}
-	
-	
- 
+
 }
