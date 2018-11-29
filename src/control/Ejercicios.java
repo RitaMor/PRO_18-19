@@ -55,7 +55,7 @@ public class Ejercicios {
 	}
 
 	// ---------------------- ACTIVIDAD
-	// ----------------------------------------------------- 10/10/2018
+	// --------------------- 10/10/2018
 	/*
 	 * Dado una “cadena” (String) devolver el valor en forma de número entero
 	 * correspondiente. Ejempo String: “ab95f1”
@@ -67,8 +67,8 @@ public class Ejercicios {
 	 * Integer.parseInt(cadena); return numeros; }
 	 */
 
-	// ---------------------- ACTIVIDAD : Serie Fibonacci
-	// --------------------------------------- 11/10/2018
+	// -------------------- ACTIVIDAD : Serie Fibonacci
+	// -------------------- 11/10/2018
 
 	public static void serieFibonacci(int cuantos) {
 		int num1 = 0;
@@ -85,7 +85,7 @@ public class Ejercicios {
 	}
 
 	// ---------------------- ACTIVIDAD : Factorial (1.-Deberes
-	// Casa)-------------------------------- 11/10/2018
+	// Casa)----------------- 11/10/2018
 
 	public static void factorial(int numFact) {
 		int num1 = 1;
@@ -138,7 +138,7 @@ public class Ejercicios {
 
 	}
 
-	// ------------------------17-10-2018
+	// ------------------------17/10/2018
 	// Imprime por consola los n números enteros aleatorios
 	// entre 1 y 100.
 
@@ -208,7 +208,7 @@ public class Ejercicios {
 		return resultado;
 	}
 
-	// ------------------------24-10-2018--
+	// ------------------------24/10/2018--
 	// 1.- Crear el prototipo, 2.- Crear nombreMetodo, 3.- Implementación, 4.-
 	// Ejecucion
 	public Persona[] ListaPersonas(int n) {
@@ -237,7 +237,7 @@ public class Ejercicios {
 		return saldoFinal;
 	}
 
-	// ------------------------25-10-2018--
+	// ------------------------25/10/2018--
 	// --------------------Prueba cadenas--
 
 	public void pruebaCadena() {
@@ -272,7 +272,7 @@ public class Ejercicios {
 		return cad2.compareToIgnoreCase(cad1);
 	}
 
-	// ------ Prueba
+	// ----------- Prueba
 	public String[] listaDiasSemana(String[] dias) {
 
 		// String[] diasSemana = {"Lunes",
@@ -303,14 +303,14 @@ public class Ejercicios {
 		return resultado;
 	}
 
-	// 06/11/2018
+	// ----------------- 06/11/2018
 	public void mostrarVentasVendedor() {
 
 		String[] nombresVendedor = { "Juan Carlos", "Isabel", "Marta" };
 		float[][] ventasYear = { { 12.5f, 13.5f, 8.5f, 0f, 10.5f, 9.5f, 20.5f, 18.5f, 6.5f, 30.5f, 12.5f, 7.5f },
 				{ 10.5f, 15.5f, 4.5f, 6f, 10.5f, 8.5f, 14.5f, 4.5f, 8.5f, 12.5f, 15.5f, 14.5f },
 				{ 8.5f, 14.5f, 16.5f, 7f, 9.5f, 10.5f, 6.5f, 14.5f, 4.5f, 20.5f, 10.5f, 5.5f } };
-		float[] ventas = resumenVendedor(ventasYear);
+		float[] ventas = resumenVendedor(ventasYear); //llamada del metodo resumenVendedor.
 
 		for (int i = 0; i < ventas.length; i++) {
 			System.out.println(nombresVendedor[i] + " : " + ventas[i]);
@@ -319,7 +319,7 @@ public class Ejercicios {
 
 	}
 
-	// 31/10/2018
+	// ---------------- 31/10/2018
 	public float[] resumenVentasPorMes(float[][] ventas) {
 
 		float[] resultado = new float[ventas[0].length];
@@ -347,7 +347,7 @@ public class Ejercicios {
 	 * //pasar cadena a numero String x="6x9"; int numero = Integer.parseInt(x);
 	 */
 
-	// 6/11/2018
+	// ------------------ 5/11/2018
 
 	public int[] convierteCadenas(String[] cadenas) {
 		// El array de salida tiene el MISMO numero
@@ -368,7 +368,7 @@ public class Ejercicios {
 		return numero;
 	}
 
-	// 7/11/2018
+	// ------------------ 7/11/2018
 	// Mostrar hora con retardo de un segundo
 	public void mostrarHora() {
 
@@ -392,7 +392,7 @@ public class Ejercicios {
 
 	}
 
-	// 08/11/2018
+	// ------------------- 08/11/2018
 	// Comprueba si número es primo
 	public boolean esPrimo(int num) {// True o false: Número primo...
 
@@ -462,6 +462,7 @@ public class Ejercicios {
 
 	}
 
+	// --------------- 13/11/2018
 	public void ordenaArrayNumeros(int[] numeros) {
 
 		int auxiliar = 0;
@@ -478,7 +479,7 @@ public class Ejercicios {
 		}
 	}
 
-	// 14/11/2018
+	// ------------------- 14/11/2018
 	public void ordenaArrayCadenas(String[] cadenas) {
 
 		for (int i = 0; i < cadenas.length - 1; i++) {
@@ -526,15 +527,10 @@ public class Ejercicios {
 		return resultado;
 	}
 
-	// 20/11/2018
-
-	// Ejercicios con arrays
-
+	// ------------------- 20/11/2018
+	// ----------------- Ejercicios con arrays
 	// 1. Dada una lista (array) de enteros (int), obtener la lista INVERTIDA sobre
 	// si misma
-
-	
-	
 	public void invertirLista(int[] lista) { //Hecho en clase
 		int aux;
 		for (int i = 0; i < lista.length / 2; i++) {
@@ -546,7 +542,7 @@ public class Ejercicios {
 
 	}
 	
-	// ---------- 29/11/2018
+	// ------------------- 29/11/2018
 	public int[] invertirLista2(int[] lista) { //Devuelve el resultado en otra lista.
 		int[] resultado = new int[lista.length];
 		
@@ -571,13 +567,13 @@ public class Ejercicios {
 		}
 		for (int j = 0; j < l2.length; j++) {
 			mezcla[j + l1.length] = l2[j];
-			System.out.println(mezcla[j]);
+			
 		}
 		ordenaArrayNumeros(mezcla);
 		return mezcla;
 	}
 	
-	// 22/11/2018
+	// ------------------- 22/11/2018
 	// Mismo ejercicio con otra solucion
 	public int[] mezclaListasOrdenadas2(int[] l1, int[] l2) {
 		int[] resultado = new int[l1.length + l2.length];
@@ -624,7 +620,7 @@ public class Ejercicios {
 
 	}
 
-	// 21/11/2018
+	// ------------------- 21/11/2018
 	// Ordena filas de matriz
 	public void ordenaFilasMatriz(int[][] matriz) {
 		for (int i = 0; i < matriz.length; i++) {
@@ -632,7 +628,7 @@ public class Ejercicios {
 		}
 	}
 
-	// -------------- 27/11/2018
+	// ------------------- 27/11/2018
 	public int[] matrizToArrayOrdenado(int[][] matriz) {
 				
 		int[] resultado = new int[1];
@@ -648,7 +644,7 @@ public class Ejercicios {
 		return resultado;
 
 	}
-	// -------------- 28/11/2018
+	// ------------------- 28/11/2018
 	private Persona[] persona; 
 	
 	public void hijosPersonas() {
