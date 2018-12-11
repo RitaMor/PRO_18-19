@@ -50,10 +50,10 @@ public class Principal {
 		// Persona[] lista = ejercicios.ListaPersonas(3);
 
 		// ------------- 24/10/2018
-		// float[] movimientos = { 85.5f, 60.4f, -25.8f, -70.6f, 52.20f };
-		// float saldo = 200f;
-		// System.out.println("El saldo final es: "+ejercicios.calculaSaldo(movimientos,
-		// saldo));
+		 float[] movimientos = { 85.5f, 60.4f, -25.8f, -70.6f, 52.20f };
+		 float saldo = 200f;
+		System.out.println("El saldo final es: "+ejercicios.calculaSaldo(movimientos,
+		saldo));
 
 		// ------------- 25/10/2018
 		// System.out.println(ejercicios.pruebaCadena("Las Palmas de Gran
@@ -138,7 +138,7 @@ public class Principal {
 		
 		int[] l1 = {2,3,5,8,9,1,4};
 		int[] l2 = {5,4,8,7,9,6,3,6};
-		//int[] resultado = ejercicios.mezclaListasOrdenadas(l1, l2);
+		//int[] resultado1 = ejercicios.mezclaListasOrdenadas(l1, l2);
 		
 		//Ejercicio 2
 		// --------------- 22/11/2018
@@ -154,17 +154,11 @@ public class Principal {
 		
 		// -------------- 27/11/2018
 		int[][] matriz = { { 1, 5, 1 }, { 9, 7, 6 }, { 8, 6, 9 }, { 9}};
+		
 		int[] resultado = ejercicios.matrizToArrayOrdenado(matriz);
 		
 		// ----------------- 28/11/2018
-		Persona hijo1 = new Persona("25896347P", "Mario", 16, LocalDate.of(2012, 9, 6), 'M');
-		Persona hijo2 = new Persona("25814563W", "Belen", 18, LocalDate.of(2012, 9, 6), 'F');
-		Persona[] hijos = {hijo1, hijo2};
-		Persona madre = new Persona("35896425F", "Ana", 25, LocalDate.of(2010, 11, 25), 'F');
-		Persona padre = new Persona("5289643L", "Andres", 33, LocalDate.of(1998, 06,8), 'M');
-		Persona madreMadre = new Persona("35896425F", "Juana", 12, LocalDate.of(1990, 04, 21), 'F');
-		Persona padrePadre = new Persona("5289643L", "Antonio", 15, LocalDate.of(2012, 9, 6), 'M');
-		Persona persona2 = new Persona("365894P", "María",33, LocalDate.of(1990, 04, 21), 'F', hijos, padrePadre, madreMadre);
+		ejercicios.hijosPersonas();
 		
 		
 		System.out.println();

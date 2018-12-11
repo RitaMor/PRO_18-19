@@ -185,6 +185,7 @@ public class Ejercicios {
 
 		int resultado = 0;
 		Random rnd = new Random();
+		
 
 		for (int i = 0; i < n; i++) {
 
@@ -209,6 +210,7 @@ public class Ejercicios {
 	}
 
 	// ------------------------24/10/2018--
+	//Crear metodo que devuelva lista de persona pasando número de personas por parametro.
 	// 1.- Crear el prototipo, 2.- Crear nombreMetodo, 3.- Implementación, 4.-
 	// Ejecucion
 	public Persona[] ListaPersonas(int n) {
@@ -566,7 +568,7 @@ public class Ejercicios {
 			mezcla[i] = l1[i];
 		}
 		for (int j = 0; j < l2.length; j++) {
-			mezcla[j + l1.length] = l2[j];
+			mezcla[l1.length+j] = l2[j];
 			
 		}
 		ordenaArrayNumeros(mezcla);
@@ -645,21 +647,41 @@ public class Ejercicios {
 
 	}
 	// ------------------- 28/11/2018
-	private Persona[] persona; 
+	Persona persona1  = new Persona("25896347P", "Mario", 16, LocalDate.of(2012, 9, 6), 'M');
+	Persona persona2  = new Persona("25814563W", "Belen", 18, LocalDate.of(2012, 9, 6), 'F');
+	Persona[] hijosP1 = {persona1,persona2};
 	
+	Persona persona3  = new Persona("25896347P", "Carlos", 16, LocalDate.of(2012, 9, 6), 'M');
+	Persona persona4 = new Persona("25814563W", "Sara", 18, LocalDate.of(2012, 9, 6), 'F');
+	Persona[] hijosP2 = {persona3, persona4};
+	
+	Persona persona5 = new Persona("35896425F", "Ana", 25, LocalDate.of(2010, 11, 25), 'F', hijosP2, persona1, persona2);
+	Persona persona6 = new Persona("5289643L", "Andres", 33, LocalDate.of(1998, 06,8), 'M', null, persona3, persona4);
+	Persona persona7 = new Persona("35896425F", "Juana", 12, LocalDate.of(1990, 04, 21), 'F', null, persona2, persona1);
+	Persona persona8 = new Persona("5289643L", "Antonio", 15, LocalDate.of(2012, 9, 6), 'M', null, persona3, persona2);
+	
+	Persona persona9 = new Persona("25825825Ñ", "Pepe",53, LocalDate.of(1990, 04, 21), 'F', hijosP2, persona1, persona2);
+	Persona persona10 = new Persona("365894P", "María",33, LocalDate.of(1990, 04, 21), 'F', hijosP1, persona3, persona4);
+	
+	private Persona[] persona = {persona1, persona2, persona3, persona4, persona5, persona6, persona7, persona8, persona9, persona10};
+	
+
 	public void hijosPersonas() {
 		
 		for (int i = 0; i < persona.length; i++) {
 			
 			Persona[] hijos = persona[i].getHijosBiologicos();
-			System.out.println("Padre"+ persona[i].getNombre());
+			System.out.println("Padre o madre: "+ persona[i].getNombre());
 			
-			if (hijos!= null) {
+			if (hijos!= null) { 
 				for (int j = 0; j < hijos.length; j++) {
-					System.out.println("Hijos"+hijos[i].getNombre());
+					System.out.println("Hijos "+hijos[j].getNombre());
+					
 			
 				}
 			
+			}else{
+				System.out.println("No tiene hijos ");
 			}
 		}
 				
