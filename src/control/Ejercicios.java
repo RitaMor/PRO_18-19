@@ -1,5 +1,9 @@
 package control;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -694,43 +698,72 @@ public class Ejercicios {
 
 	}
 
-	// .................. 2º TRIMESTRE..........................
-	
-	
-	// ----------------- 09/01/2019
-		// <<<<<<<<<<<<<<<<< HashMap >>>>>>>>>>>>>>>>>>>>
-		// Declarar EL MAPA (HaspMap) que almacen
-		//objetos de la clase Estudiante, la clave es el nif.
-		//INICIALIZAR EL MAPA
-		// INSERTAR una serie de estudiantes.
-		public void introMapa() {
+	// ...................... 2º TRIMESTRE.....................
+
+	// -------------10/01/2019
+	// <<<<<<<<<<<<<<<<< Leer Fichero >>>>>>>>>>>>>>>>>>>>
+
+	public void leerFichero(String rutaFichero) {
+			//Abrir fichero
+		try {
+			BufferedReader fichero;
+			FileReader f = new FileReader(rutaFichero);
+			fichero = new BufferedReader(f);
 			
-			HashMap<String, Estudiante> mapa = new HashMap<>();
-		
-			Estudiante estud1 = new Estudiante("11111111N", "Mario", 145, LocalDate.now(), 'M' );
-			Estudiante estud2 = new Estudiante("22222222B", "Ana", 250, LocalDate.now(), 'F' );
-			Estudiante estud3 = new Estudiante("33333333A", "Juan", 100, LocalDate.now(), 'M' );
-			Estudiante estud5 = new Estudiante("001", "Juan", 100, LocalDate.now(), 'M' );
-			mapa.put(estud1.getNif(), estud1);
-			mapa.put(estud2.getNif(), estud2);
-			mapa.put(estud3.getNif(), estud3);
-			mapa.put(estud5.getNif(), estud3);
-			mapa.put("44444444C", new Estudiante("44444444C", "Maria", 80, LocalDate.now(), 'F'));
-			
-			/*if(!mapa.containsKey("1"))
-				mapa.put("1", null);*/
-			
-			//recorrer mapa
-			
-			Set<String> clavesMapa = mapa.keySet();
-			for (String clave : clavesMapa) {
-				System.out.println(mapa.get(clave).getNombre());
-				
-				
+			String registro = fichero.readLine();
+			while (registro != null) {
+				System.out.println(registro);
+				// Lee siguiente linea
+				registro = fichero.readLine();
 			}
-		
-			System.out.println("Fin mapa");
+			
+			// Cerrar registro
+			fichero.close();
+			System.out.println("Fin de la lectura del fichero");
+		} catch (FileNotFoundException e) {
+			System.out.println("Fichero no encontrado");
+			
+		} catch (IOException e) {
+			System.out.println("IO Excepcion");
 		}
+
+		
+	}
+
+	// ----------------- 09/01/2019
+	// <<<<<<<<<<<<<<<<< HashMap >>>>>>>>>>>>>>>>>>>>
+	// Declarar EL MAPA (HaspMap) que almacen
+	// objetos de la clase Estudiante, la clave es el nif.
+	// INICIALIZAR EL MAPA
+	// INSERTAR una serie de estudiantes.
+	public void introMapa() {
+
+		HashMap<String, Estudiante> mapa = new HashMap<>();
+
+		Estudiante estud1 = new Estudiante("11111111N", "Mario", 145, LocalDate.now(), 'M');
+		Estudiante estud2 = new Estudiante("22222222B", "Ana", 250, LocalDate.now(), 'F');
+		Estudiante estud3 = new Estudiante("33333333A", "Juan", 100, LocalDate.now(), 'M');
+		Estudiante estud5 = new Estudiante("001", "Juan", 100, LocalDate.now(), 'M');
+		mapa.put(estud1.getNif(), estud1);
+		mapa.put(estud2.getNif(), estud2);
+		mapa.put(estud3.getNif(), estud3);
+		mapa.put(estud5.getNif(), estud3);
+		mapa.put("44444444C", new Estudiante("44444444C", "Maria", 80, LocalDate.now(), 'F'));
+
+		/*
+		 * if(!mapa.containsKey("1")) mapa.put("1", null);
+		 */
+
+		// recorrer mapa
+
+		Set<String> clavesMapa = mapa.keySet();
+		for (String clave : clavesMapa) {
+			System.out.println(mapa.get(clave).getNombre());
+
+		}
+
+		System.out.println("Fin mapa");
+	}
 	// ----------------- 08/01/2019
 	// <<<<<<<<<<<<<<<<< ARRAYLIST >>>>>>>>>>>>>>>>>>>>
 
@@ -746,8 +779,6 @@ public class Ejercicios {
 
 	public void introListas() {
 
-		
-
 		ArrayList<Persona> listaPersonas;
 
 		listaPersonas = new ArrayList<Persona>();
@@ -761,7 +792,7 @@ public class Ejercicios {
 		listaPersonas.add(new Persona("44321654F", "Pepe", 145, LocalDate.now(), 'M'));
 
 		listaPersonas.add(1, new Persona("nuevoNif", "Pepe", 145, LocalDate.now(), 'M'));
-		
+
 		// System.out.println(listaPersonas.get(1).getNombre());
 		ArrayList<Object> listaGenerica = new ArrayList<Object>(10);
 
@@ -782,10 +813,8 @@ public class Ejercicios {
 			System.out.println(listaGenerica.get(i));
 
 		System.out.println("Lista generica tienes " + listaGenerica.size());
-	
+
 		System.out.println("fin listas");
 	}
-	
-	
 
 }

@@ -164,7 +164,9 @@ public class Principal {
 		// ----------------- 08/01/2019
 		//ejercicios.introListas();
 		//System.exit(0);
-		ejercicios.introMapa();
+		// ----------------- 09/01/2019
+		//ejercicios.introMapa();
+		ejercicios.leerFichero("ficheros/datos.txt");
 		
 		System.out.println("FIN DEL PROGRAMA");
 	}
