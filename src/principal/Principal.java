@@ -52,8 +52,8 @@ public class Principal {
 		// ------------- 24/10/2018
 		 float[] movimientos = { 85.5f, 60.4f, -25.8f, -70.6f, 52.20f };
 		 float saldo = 200f;
-		System.out.println("El saldo final es: "+ejercicios.calculaSaldo(movimientos,
-		saldo));
+		//System.out.println("El saldo final es: "+ejercicios.calculaSaldo(movimientos,
+		//saldo));
 
 		// ------------- 25/10/2018
 		// System.out.println(ejercicios.pruebaCadena("Las Palmas de Gran
@@ -146,7 +146,7 @@ public class Principal {
 		
 		
 		//Ejercicio 3
-		String cadena1 = "sé verla al revés";
+		String cadena1 = "sé verlo al revés";
 		//System.out.println(ejercicios.invertirCaracteres(cadena1));
 		
 		// -------------- 21/11/2018
@@ -158,10 +158,14 @@ public class Principal {
 		int[] resultado = ejercicios.matrizToArrayOrdenado(matriz);
 		
 		// ----------------- 28/11/2018
-		ejercicios.hijosPersonas();
+		//ejercicios.hijosPersonas();
 		
 		
-		System.out.println();
+		// ----------------- 08/01/2019
+		//ejercicios.introListas();
+		//System.exit(0);
+		ejercicios.introMapa();
+		
 		System.out.println("FIN DEL PROGRAMA");
 	}
 

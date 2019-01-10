@@ -1,12 +1,18 @@
 package control;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Random;
+import java.util.Set;
+
 import javax.swing.text.StyledEditorKit.ForegroundAction;
+
+import modelo.Estudiante;
 import modelo.Persona;
 
 public class Ejercicios {
-	
 
 	// --------------- 04/10/2018 ACTIVIDAD: BUSCAR EN LA API
 	// -------------------------------
@@ -185,7 +191,6 @@ public class Ejercicios {
 
 		int resultado = 0;
 		Random rnd = new Random();
-		
 
 		for (int i = 0; i < n; i++) {
 
@@ -210,7 +215,8 @@ public class Ejercicios {
 	}
 
 	// ------------------------24/10/2018--
-	//Crear metodo que devuelva lista de persona pasando número de personas por parametro.
+	// Crear metodo que devuelva lista de persona pasando número de personas por
+	// parametro.
 	// 1.- Crear el prototipo, 2.- Crear nombreMetodo, 3.- Implementación, 4.-
 	// Ejecucion
 	public Persona[] ListaPersonas(int n) {
@@ -312,7 +318,7 @@ public class Ejercicios {
 		float[][] ventasYear = { { 12.5f, 13.5f, 8.5f, 0f, 10.5f, 9.5f, 20.5f, 18.5f, 6.5f, 30.5f, 12.5f, 7.5f },
 				{ 10.5f, 15.5f, 4.5f, 6f, 10.5f, 8.5f, 14.5f, 4.5f, 8.5f, 12.5f, 15.5f, 14.5f },
 				{ 8.5f, 14.5f, 16.5f, 7f, 9.5f, 10.5f, 6.5f, 14.5f, 4.5f, 20.5f, 10.5f, 5.5f } };
-		float[] ventas = resumenVendedor(ventasYear); //llamada del metodo resumenVendedor.
+		float[] ventas = resumenVendedor(ventasYear); // llamada del metodo resumenVendedor.
 
 		for (int i = 0; i < ventas.length; i++) {
 			System.out.println(nombresVendedor[i] + " : " + ventas[i]);
@@ -533,7 +539,7 @@ public class Ejercicios {
 	// ----------------- Ejercicios con arrays
 	// 1. Dada una lista (array) de enteros (int), obtener la lista INVERTIDA sobre
 	// si misma
-	public void invertirLista(int[] lista) { //Hecho en clase
+	public void invertirLista(int[] lista) { // Hecho en clase
 		int aux;
 		for (int i = 0; i < lista.length / 2; i++) {
 			aux = lista[i];
@@ -543,11 +549,11 @@ public class Ejercicios {
 		}
 
 	}
-	
+
 	// ------------------- 29/11/2018
-	public int[] invertirLista2(int[] lista) { //Devuelve el resultado en otra lista.
+	public int[] invertirLista2(int[] lista) { // Devuelve el resultado en otra lista.
 		int[] resultado = new int[lista.length];
-		
+
 		for (int i = 0; i < lista.length; i++) {
 			resultado[(lista.length - 1) - i] = lista[i];
 
@@ -568,13 +574,13 @@ public class Ejercicios {
 			mezcla[i] = l1[i];
 		}
 		for (int j = 0; j < l2.length; j++) {
-			mezcla[l1.length+j] = l2[j];
-			
+			mezcla[l1.length + j] = l2[j];
+
 		}
 		ordenaArrayNumeros(mezcla);
 		return mezcla;
 	}
-	
+
 	// ------------------- 22/11/2018
 	// Mismo ejercicio con otra solucion
 	public int[] mezclaListasOrdenadas2(int[] l1, int[] l2) {
@@ -584,10 +590,9 @@ public class Ejercicios {
 		int k = 0;
 
 		while (k < l1.length + l2.length) {
-		//while (i < l1.length || j < l2.length) {
+			// while (i < l1.length || j < l2.length) {
 			try {
 
-				
 				if (l1[i] < l2[j]) {
 					resultado[k] = l1[i];
 					i++;
@@ -599,7 +604,7 @@ public class Ejercicios {
 			} catch (ArrayIndexOutOfBoundsException e) {
 				if (i == l1.length) // fin de l1...
 					l1[--i] = Integer.MAX_VALUE;
-				else{
+				else {
 					l2[--j] = Integer.MAX_VALUE;
 
 				}
@@ -632,60 +637,155 @@ public class Ejercicios {
 
 	// ------------------- 27/11/2018
 	public int[] matrizToArrayOrdenado(int[][] matriz) {
-				
+
 		int[] resultado = new int[1];
 		ordenaFilasMatriz(matriz);
-		
-		for (int i = 0; i < matriz.length; i++) 
-				// Se crea un nuevo array con la unión de matriz[i] y result
-				// Y se guarda en result.
-				
-				resultado = mezclaListasOrdenadas(resultado, matriz[i]);
-			
-		
+
+		for (int i = 0; i < matriz.length; i++)
+			// Se crea un nuevo array con la unión de matriz[i] y result
+			// Y se guarda en result.
+
+			resultado = mezclaListasOrdenadas(resultado, matriz[i]);
+
 		return resultado;
 
 	}
+
 	// ------------------- 28/11/2018
-	Persona persona1  = new Persona("25896347P", "Mario", 16, LocalDate.of(2012, 9, 6), 'M');
-	Persona persona2  = new Persona("25814563W", "Belen", 18, LocalDate.of(2012, 9, 6), 'F');
-	Persona[] hijosP1 = {persona1,persona2};
-	
-	Persona persona3  = new Persona("25896347P", "Carlos", 16, LocalDate.of(2012, 9, 6), 'M');
+	Persona persona1 = new Persona("25896347P", "Mario", 16, LocalDate.of(2012, 9, 6), 'M');
+	Persona persona2 = new Persona("25814563W", "Belen", 18, LocalDate.of(2012, 9, 6), 'F');
+	Persona[] hijosP1 = { persona1, persona2 };
+
+	Persona persona3 = new Persona("25896347P", "Carlos", 16, LocalDate.of(2012, 9, 6), 'M');
 	Persona persona4 = new Persona("25814563W", "Sara", 18, LocalDate.of(2012, 9, 6), 'F');
-	Persona[] hijosP2 = {persona3, persona4};
-	
-	Persona persona5 = new Persona("35896425F", "Ana", 25, LocalDate.of(2010, 11, 25), 'F', hijosP2, persona1, persona2);
-	Persona persona6 = new Persona("5289643L", "Andres", 33, LocalDate.of(1998, 06,8), 'M', null, persona3, persona4);
+	Persona[] hijosP2 = { persona3, persona4 };
+
+	Persona persona5 = new Persona("35896425F", "Ana", 25, LocalDate.of(2010, 11, 25), 'F', hijosP2, persona1,
+			persona2);
+	Persona persona6 = new Persona("5289643L", "Andres", 33, LocalDate.of(1998, 06, 8), 'M', null, persona3, persona4);
 	Persona persona7 = new Persona("35896425F", "Juana", 12, LocalDate.of(1990, 04, 21), 'F', null, persona2, persona1);
 	Persona persona8 = new Persona("5289643L", "Antonio", 15, LocalDate.of(2012, 9, 6), 'M', null, persona3, persona2);
-	
-	Persona persona9 = new Persona("25825825Ñ", "Pepe",53, LocalDate.of(1990, 04, 21), 'F', hijosP2, persona1, persona2);
-	Persona persona10 = new Persona("365894P", "María",33, LocalDate.of(1990, 04, 21), 'F', hijosP1, persona3, persona4);
-	
-	private Persona[] persona = {persona1, persona2, persona3, persona4, persona5, persona6, persona7, persona8, persona9, persona10};
-	
+
+	Persona persona9 = new Persona("25825825Ñ", "Pepe", 53, LocalDate.of(1990, 04, 21), 'F', hijosP2, persona1,
+			persona2);
+	Persona persona10 = new Persona("365894P", "María", 33, LocalDate.of(1990, 04, 21), 'F', hijosP1, persona3,
+			persona4);
+
+	private Persona[] persona = { persona1, persona2, persona3, persona4, persona5, persona6, persona7, persona8,
+			persona9, persona10 };
 
 	public void hijosPersonas() {
-		
+
 		for (int i = 0; i < persona.length; i++) {
-			
+
 			Persona[] hijos = persona[i].getHijosBiologicos();
-			System.out.println("Padre o madre: "+ persona[i].getNombre());
-			
-			if (hijos!= null) { 
+			System.out.println("Padre o madre: " + persona[i].getNombre());
+
+			if (hijos != null) {
 				for (int j = 0; j < hijos.length; j++) {
-					System.out.println("Hijos "+hijos[j].getNombre());
-					
-			
+					System.out.println("Hijos " + hijos[j].getNombre());
+
 				}
-			
-			}else{
+
+			} else {
 				System.out.println("No tiene hijos ");
 			}
 		}
-				
-		
+
 	}
+
+	// .................. 2º TRIMESTRE..........................
+	
+	
+	// ----------------- 09/01/2019
+		// <<<<<<<<<<<<<<<<< HashMap >>>>>>>>>>>>>>>>>>>>
+		// Declarar EL MAPA (HaspMap) que almacen
+		//objetos de la clase Estudiante, la clave es el nif.
+		//INICIALIZAR EL MAPA
+		// INSERTAR una serie de estudiantes.
+		public void introMapa() {
+			
+			HashMap<String, Estudiante> mapa = new HashMap<>();
+		
+			Estudiante estud1 = new Estudiante("11111111N", "Mario", 145, LocalDate.now(), 'M' );
+			Estudiante estud2 = new Estudiante("22222222B", "Ana", 250, LocalDate.now(), 'F' );
+			Estudiante estud3 = new Estudiante("33333333A", "Juan", 100, LocalDate.now(), 'M' );
+			Estudiante estud5 = new Estudiante("001", "Juan", 100, LocalDate.now(), 'M' );
+			mapa.put(estud1.getNif(), estud1);
+			mapa.put(estud2.getNif(), estud2);
+			mapa.put(estud3.getNif(), estud3);
+			mapa.put(estud5.getNif(), estud3);
+			mapa.put("44444444C", new Estudiante("44444444C", "Maria", 80, LocalDate.now(), 'F'));
+			
+			/*if(!mapa.containsKey("1"))
+				mapa.put("1", null);*/
+			
+			//recorrer mapa
+			
+			Set<String> clavesMapa = mapa.keySet();
+			for (String clave : clavesMapa) {
+				System.out.println(mapa.get(clave).getNombre());
+				
+				
+			}
+		
+			System.out.println("Fin mapa");
+		}
+	// ----------------- 08/01/2019
+	// <<<<<<<<<<<<<<<<< ARRAYLIST >>>>>>>>>>>>>>>>>>>>
+
+	// crear un Estudiante
+
+	private Persona[] personas;
+
+	public void crearEstudiante() {
+
+		Estudiante estudiante = new Estudiante("43781230V", "Pedro Garcia", 153, LocalDate.now(), 'M');
+
+	}
+
+	public void introListas() {
+
+		
+
+		ArrayList<Persona> listaPersonas;
+
+		listaPersonas = new ArrayList<Persona>();
+
+		Persona persona1 = new Persona();
+
+		listaPersonas.add(persona1);
+
+		listaPersonas.add(new Persona());
+
+		listaPersonas.add(new Persona("44321654F", "Pepe", 145, LocalDate.now(), 'M'));
+
+		listaPersonas.add(1, new Persona("nuevoNif", "Pepe", 145, LocalDate.now(), 'M'));
+		
+		// System.out.println(listaPersonas.get(1).getNombre());
+		ArrayList<Object> listaGenerica = new ArrayList<Object>(10);
+
+		// System.out.println("Lista generica tienes " + listaGenerica.size());
+
+		listaGenerica.add("Gran Canaria");
+		String nombre = "Pepe";
+		listaGenerica.add(nombre);
+		listaGenerica.add(Math.PI);
+		listaGenerica.add(123.5f);
+		listaGenerica.add(true);
+		listaGenerica.add(new Persona());
+
+		// for (Object elemento : listaGenerica)
+		// System.out.println(elemento);
+
+		for (int i = 0; i < listaGenerica.size(); i++)
+			System.out.println(listaGenerica.get(i));
+
+		System.out.println("Lista generica tienes " + listaGenerica.size());
+	
+		System.out.println("fin listas");
+	}
+	
+	
 
 }
