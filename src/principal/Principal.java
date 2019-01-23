@@ -1,9 +1,13 @@
 package principal;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 import control.Ejercicios;
+import modelo.Equipo;
 import modelo.Persona;
+
 
 public class Principal {
 
@@ -166,8 +170,13 @@ public class Principal {
 		//System.exit(0);
 		// ----------------- 09/01/2019
 		//ejercicios.introMapa();
-		ejercicios.leerFichero("ficheros/datos.txt");
-		
+		//ejercicios.leerFichero("ficheros/datos.txt");
+		//ejercicios.CreaListaPersonasDesdeFichero("ficheros/personas.txt", "##");
+		// ----------------- 22/01/2019
+		HashMap<String, Integer> equipos = ejercicios.comprobarPartidos("ficheros/partidos.txt");
+		// ----------------- 23/01/2019
+		ArrayList<Equipo> listaEquipos = ejercicios.crearListaEquipos("ficheros/equipos.txt");
+		HashMap<String, Equipo> mapaEquipos = ejercicios.crearMapaEquipos("ficheros/equipos.txt");
 		System.out.println("FIN DEL PROGRAMA");
 	}
 

@@ -8,7 +8,7 @@ public class Estudiante extends Persona {
 	private String matricula;
 	private char turn; // 'M', 'T', 'N'
 
-	public Estudiante(String nif, String nombre, int longitudPaso, LocalDate fecha_nac, char sexo) {
+	public Estudiante(String nif, String nombre, int longitudPaso, String fecha_nac, char sexo) {
 		super(nif, nombre, longitudPaso, fecha_nac, sexo);
 
 	}

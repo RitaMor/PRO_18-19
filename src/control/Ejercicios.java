@@ -13,10 +13,301 @@ import java.util.Set;
 
 import javax.swing.text.StyledEditorKit.ForegroundAction;
 
+import modelo.Equipo;
 import modelo.Estudiante;
+import modelo.Partido;
 import modelo.Persona;
 
 public class Ejercicios {
+
+	// ...................... 2º TRIMESTRE.....................
+	// -------------- 23/01/2019
+
+	// Crea una lista de equipos en un Mapa
+	public HashMap<String, Equipo> crearMapaEquipos(String rutaFichero) {
+
+		try {
+
+			BufferedReader fichero;
+			fichero = new BufferedReader(new FileReader(rutaFichero));
+			String registro;
+			String[] campos;
+			HashMap<String, Equipo> mapaEquipos = new HashMap<String, Equipo>();
+			while ((registro = fichero.readLine()) != null) {
+				campos = registro.split("#");
+
+				Equipo equipo;
+
+				try {
+					equipo = new Equipo(Integer.parseInt(campos[0]), campos[1], campos[2]);
+					mapaEquipos.put(campos[1], equipo);
+				} catch (NumberFormatException e) {
+					System.out.println("Se ha creado un error de conversión ");
+				}
+
+			}
+			fichero.close();
+			System.out.println("Creada la lista de equipos");
+			return mapaEquipos;
+
+		} catch (FileNotFoundException e) {
+			System.out.println("Fichero no encontrado");
+
+		} catch (IOException e) {
+			System.out.println("IO Excepcion");
+		}
+
+		return null;
+
+	}
+
+	// Crea una lista de equipos en un ArrayList
+	public ArrayList<Equipo> crearListaEquipos(String rutaFichero) {
+
+		try {
+
+			BufferedReader fichero;
+			fichero = new BufferedReader(new FileReader(rutaFichero));
+			String registro;
+			String[] campos;
+			ArrayList<Equipo> listaEquipos = new ArrayList<Equipo>();
+			while ((registro = fichero.readLine()) != null) {
+				campos = registro.split("#");
+
+				Equipo equipo;
+
+				try {
+					equipo = new Equipo(Integer.parseInt(campos[0]), campos[1], campos[2]);
+					listaEquipos.add(equipo);
+				} catch (NumberFormatException e) {
+					System.out.println("Se ha creado un error de conversión ");
+				}
+
+			}
+			fichero.close();
+			System.out.println("Creada la lista de equipos");
+			return listaEquipos;
+
+		} catch (FileNotFoundException e) {
+			System.out.println("Fichero no encontrado");
+
+		} catch (IOException e) {
+			System.out.println("IO Excepcion");
+		}
+
+		return null;
+
+	}
+
+	// ------------- 22/01/2019
+
+	public HashMap<String, Integer> comprobarPartidos(String rutaFichero) {
+
+		HashMap<String, Integer> mapaEquipos = new HashMap<String, Integer>();
+
+		try {
+			BufferedReader fichero;
+			fichero = new BufferedReader(new FileReader(rutaFichero));
+			String registro;
+			String[] campos;
+			while ((registro = fichero.readLine()) != null) {
+				campos = registro.split("#");
+
+				// ver si elocal y evisitante están en el mapa
+				int cont = 0;
+				if (!mapaEquipos.containsKey(campos[2])) {
+					mapaEquipos.put(campos[2], cont);
+				} else {
+					cont = mapaEquipos.get(campos[2]);
+					cont++;
+					mapaEquipos.replace(campos[2], cont);
+				}
+
+				if (!mapaEquipos.containsKey(campos[4])) {
+					mapaEquipos.put(campos[4], cont);
+				} else {
+					cont = mapaEquipos.get(campos[4]);
+					cont++;
+					mapaEquipos.replace(campos[4], cont);
+
+				}
+				for (int i = 0; i < campos.length; i++)
+					System.out.print(campos[i] + ", ");
+				System.out.println("");
+
+			}
+
+			fichero.close();
+			System.out.println("Fin de la lectura del fichero, hay " + mapaEquipos.size() + " equipos");
+		} catch (FileNotFoundException e) {
+			System.out.println("Fichero no encontrado");
+
+		} catch (IOException e) {
+			System.out.println("IO Excepcion");
+		}
+
+		return mapaEquipos;
+
+	}
+
+	// ------------- 15/01/2019
+	// Crear lista de personas a partir de fichero de personas
+
+	public ArrayList<Persona> CreaListaPersonasDesdeFichero(String rutaFichero, String separador) {
+
+		try {
+			BufferedReader fichero;
+			fichero = new BufferedReader(new FileReader(rutaFichero));
+			// Crear ArrayList donde guardar lista de personas
+			ArrayList<Persona> listaPersonas;
+			listaPersonas = new ArrayList<>();
+			Persona persona;
+			String registro;
+			String[] campos;
+			while ((registro = fichero.readLine()) != null) {
+				// System.out.println(registro);
+
+				// Romper la cadena registro
+				campos = registro.split(separador);
+
+				// Crear objeto de la clase Persona
+				persona = new Persona(campos[0], campos[1], Integer.parseInt(campos[2]), campos[3],
+						campos[4].charAt(0));
+				listaPersonas.add(persona);
+				for (int i = 0; i < campos.length; i++)
+					System.out.print(campos[i] + ", ");
+				System.out.println("");
+
+			}
+			fichero.close();
+			System.out.println("Creada la lista de personas");
+
+			return listaPersonas;
+		} catch (FileNotFoundException e) {
+			System.out.println("Fichero no encontrado");
+
+		} catch (IOException e) {
+			System.out.println("IO Excepcion");
+		}
+
+		return null;
+	}
+
+	// ------------- 10/01/2019
+	// <<<<<<<<<<<<<<<<< Leer Fichero >>>>>>>>>>>>>>>>>>>>
+
+	public void leerFichero(String rutaFichero) {
+		// Abrir fichero
+		try {
+			BufferedReader fichero;
+			fichero = new BufferedReader(new FileReader(rutaFichero));
+			String registro;
+			while ((registro = fichero.readLine()) != null) {
+				System.out.println(registro);
+
+				// ................
+
+			}
+
+			fichero.close();
+			System.out.println("Fin de la lectura del fichero");
+		} catch (FileNotFoundException e) {
+			System.out.println("Fichero no encontrado");
+
+		} catch (IOException e) {
+			System.out.println("IO Excepcion");
+		}
+
+	}
+
+	// ----------------- 09/01/2019
+	// <<<<<<<<<<<<<<<<< HashMap >>>>>>>>>>>>>>>>>>>>
+	// Declarar EL MAPA (HaspMap) que almacena
+	// objetos de la clase Estudiante, la clave es el nif.
+	// INICIALIZAR EL MAPA
+	// INSERTAR una serie de estudiantes.
+	public void introMapa() {
+
+		HashMap<String, Estudiante> mapa = new HashMap<>();
+
+		Estudiante estud1 = new Estudiante("11111111N", "Mario", 145, null, 'M');
+		Estudiante estud2 = new Estudiante("22222222B", "Ana", 250, null, 'F');
+		Estudiante estud3 = new Estudiante("33333333A", "Juan", 100, null, 'M');
+		Estudiante estud5 = new Estudiante("001", "Juan", 100, null, 'M');
+		mapa.put(estud1.getNif(), estud1);
+		mapa.put(estud2.getNif(), estud2);
+		mapa.put(estud3.getNif(), estud3);
+		mapa.put(estud5.getNif(), estud3);
+		mapa.put("44444444C", new Estudiante("44444444C", "Maria", 80, null, 'F'));
+
+		/*
+		 * if(!mapa.containsKey("1")) mapa.put("1", null);
+		 */
+
+		// recorrer mapa
+
+		Set<String> clavesMapa = mapa.keySet();
+		for (String clave : clavesMapa) {
+			System.out.println(mapa.get(clave).getNombre());
+
+		}
+
+		System.out.println("Fin mapa");
+	}
+	// ----------------- 08/01/2019
+	// <<<<<<<<<<<<<<<<< ARRAYLIST >>>>>>>>>>>>>>>>>>>>
+
+	public void introListas() {
+
+		ArrayList<Persona> listaPersonas;
+
+		listaPersonas = new ArrayList<Persona>();
+
+		Persona persona1 = new Persona();
+
+		listaPersonas.add(persona1);
+
+		listaPersonas.add(new Persona());
+
+		listaPersonas.add(new Persona("44321654F", "Pepe", 145, null, 'M'));
+
+		listaPersonas.add(1, new Persona("nuevoNif", "Pepe", 145, null, 'M'));
+
+		// System.out.println(listaPersonas.get(1).getNombre());
+		ArrayList<Object> listaGenerica = new ArrayList<Object>(10);
+
+		// System.out.println("Lista generica tienes " + listaGenerica.size());
+
+		listaGenerica.add("Gran Canaria");
+		String nombre = "Pepe";
+		listaGenerica.add(nombre);
+		listaGenerica.add(Math.PI);
+		listaGenerica.add(123.5f);
+		listaGenerica.add(true);
+		listaGenerica.add(new Persona());
+
+		// for (Object elemento : listaGenerica)
+		// System.out.println(elemento);
+
+		for (int i = 0; i < listaGenerica.size(); i++)
+			System.out.println(listaGenerica.get(i));
+
+		System.out.println("Lista generica tienes " + listaGenerica.size());
+
+		System.out.println("fin listas");
+	}
+
+	// crear un Estudiante
+
+	private Persona[] personas;
+
+	public void crearEstudiante() {
+
+		Estudiante estudiante = new Estudiante("43781230V", "Pedro Garcia", 153, null, 'M');
+
+	}
+
+	// .................... 1º trimestre .................
 
 	// --------------- 04/10/2018 ACTIVIDAD: BUSCAR EN LA API
 	// -------------------------------
@@ -656,24 +947,21 @@ public class Ejercicios {
 	}
 
 	// ------------------- 28/11/2018
-	Persona persona1 = new Persona("25896347P", "Mario", 16, LocalDate.of(2012, 9, 6), 'M');
-	Persona persona2 = new Persona("25814563W", "Belen", 18, LocalDate.of(2012, 9, 6), 'F');
+	Persona persona1 = new Persona("25896347P", "Mario", 16, null, 'M');
+	Persona persona2 = new Persona("25814563W", "Belen", 18, null, 'F');
 	Persona[] hijosP1 = { persona1, persona2 };
 
-	Persona persona3 = new Persona("25896347P", "Carlos", 16, LocalDate.of(2012, 9, 6), 'M');
-	Persona persona4 = new Persona("25814563W", "Sara", 18, LocalDate.of(2012, 9, 6), 'F');
+	Persona persona3 = new Persona("25896347P", "Carlos", 16, null, 'M');
+	Persona persona4 = new Persona("25814563W", "Sara", 18, null, 'F');
 	Persona[] hijosP2 = { persona3, persona4 };
 
-	Persona persona5 = new Persona("35896425F", "Ana", 25, LocalDate.of(2010, 11, 25), 'F', hijosP2, persona1,
-			persona2);
-	Persona persona6 = new Persona("5289643L", "Andres", 33, LocalDate.of(1998, 06, 8), 'M', null, persona3, persona4);
-	Persona persona7 = new Persona("35896425F", "Juana", 12, LocalDate.of(1990, 04, 21), 'F', null, persona2, persona1);
-	Persona persona8 = new Persona("5289643L", "Antonio", 15, LocalDate.of(2012, 9, 6), 'M', null, persona3, persona2);
+	Persona persona5 = new Persona("35896425F", "Ana", 25, null, 'F', hijosP2, persona1, persona2);
+	Persona persona6 = new Persona("5289643L", "Andres", 33, null, 'M', null, persona3, persona4);
+	Persona persona7 = new Persona("35896425F", "Juana", 12, null, 'F', null, persona2, persona1);
+	Persona persona8 = new Persona("5289643L", "Antonio", 15, null, 'M', null, persona3, persona2);
 
-	Persona persona9 = new Persona("25825825Ñ", "Pepe", 53, LocalDate.of(1990, 04, 21), 'F', hijosP2, persona1,
-			persona2);
-	Persona persona10 = new Persona("365894P", "María", 33, LocalDate.of(1990, 04, 21), 'F', hijosP1, persona3,
-			persona4);
+	Persona persona9 = new Persona("25825825Ñ", "Pepe", 53, null, 'F', hijosP2, persona1, persona2);
+	Persona persona10 = new Persona("365894P", "María", 33, null, 'F', hijosP1, persona3, persona4);
 
 	private Persona[] persona = { persona1, persona2, persona3, persona4, persona5, persona6, persona7, persona8,
 			persona9, persona10 };
@@ -696,125 +984,6 @@ public class Ejercicios {
 			}
 		}
 
-	}
-
-	// ...................... 2º TRIMESTRE.....................
-
-	// -------------10/01/2019
-	// <<<<<<<<<<<<<<<<< Leer Fichero >>>>>>>>>>>>>>>>>>>>
-
-	public void leerFichero(String rutaFichero) {
-			//Abrir fichero
-		try {
-			BufferedReader fichero;
-			FileReader f = new FileReader(rutaFichero);
-			fichero = new BufferedReader(f);
-			
-			String registro = fichero.readLine();
-			while (registro != null) {
-				System.out.println(registro);
-				// Lee siguiente linea
-				registro = fichero.readLine();
-			}
-			
-			// Cerrar registro
-			fichero.close();
-			System.out.println("Fin de la lectura del fichero");
-		} catch (FileNotFoundException e) {
-			System.out.println("Fichero no encontrado");
-			
-		} catch (IOException e) {
-			System.out.println("IO Excepcion");
-		}
-
-		
-	}
-
-	// ----------------- 09/01/2019
-	// <<<<<<<<<<<<<<<<< HashMap >>>>>>>>>>>>>>>>>>>>
-	// Declarar EL MAPA (HaspMap) que almacen
-	// objetos de la clase Estudiante, la clave es el nif.
-	// INICIALIZAR EL MAPA
-	// INSERTAR una serie de estudiantes.
-	public void introMapa() {
-
-		HashMap<String, Estudiante> mapa = new HashMap<>();
-
-		Estudiante estud1 = new Estudiante("11111111N", "Mario", 145, LocalDate.now(), 'M');
-		Estudiante estud2 = new Estudiante("22222222B", "Ana", 250, LocalDate.now(), 'F');
-		Estudiante estud3 = new Estudiante("33333333A", "Juan", 100, LocalDate.now(), 'M');
-		Estudiante estud5 = new Estudiante("001", "Juan", 100, LocalDate.now(), 'M');
-		mapa.put(estud1.getNif(), estud1);
-		mapa.put(estud2.getNif(), estud2);
-		mapa.put(estud3.getNif(), estud3);
-		mapa.put(estud5.getNif(), estud3);
-		mapa.put("44444444C", new Estudiante("44444444C", "Maria", 80, LocalDate.now(), 'F'));
-
-		/*
-		 * if(!mapa.containsKey("1")) mapa.put("1", null);
-		 */
-
-		// recorrer mapa
-
-		Set<String> clavesMapa = mapa.keySet();
-		for (String clave : clavesMapa) {
-			System.out.println(mapa.get(clave).getNombre());
-
-		}
-
-		System.out.println("Fin mapa");
-	}
-	// ----------------- 08/01/2019
-	// <<<<<<<<<<<<<<<<< ARRAYLIST >>>>>>>>>>>>>>>>>>>>
-
-	// crear un Estudiante
-
-	private Persona[] personas;
-
-	public void crearEstudiante() {
-
-		Estudiante estudiante = new Estudiante("43781230V", "Pedro Garcia", 153, LocalDate.now(), 'M');
-
-	}
-
-	public void introListas() {
-
-		ArrayList<Persona> listaPersonas;
-
-		listaPersonas = new ArrayList<Persona>();
-
-		Persona persona1 = new Persona();
-
-		listaPersonas.add(persona1);
-
-		listaPersonas.add(new Persona());
-
-		listaPersonas.add(new Persona("44321654F", "Pepe", 145, LocalDate.now(), 'M'));
-
-		listaPersonas.add(1, new Persona("nuevoNif", "Pepe", 145, LocalDate.now(), 'M'));
-
-		// System.out.println(listaPersonas.get(1).getNombre());
-		ArrayList<Object> listaGenerica = new ArrayList<Object>(10);
-
-		// System.out.println("Lista generica tienes " + listaGenerica.size());
-
-		listaGenerica.add("Gran Canaria");
-		String nombre = "Pepe";
-		listaGenerica.add(nombre);
-		listaGenerica.add(Math.PI);
-		listaGenerica.add(123.5f);
-		listaGenerica.add(true);
-		listaGenerica.add(new Persona());
-
-		// for (Object elemento : listaGenerica)
-		// System.out.println(elemento);
-
-		for (int i = 0; i < listaGenerica.size(); i++)
-			System.out.println(listaGenerica.get(i));
-
-		System.out.println("Lista generica tienes " + listaGenerica.size());
-
-		System.out.println("fin listas");
 	}
 
 }
