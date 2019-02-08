@@ -1,554 +1,553 @@
-1#nif1#Fernando Pacheco#1#1#121#19981024#M
-2#nif2#Antonio Sivera#13#1#122#19981025#M
-3#nif3#Álex Domínguez#31#1#123#19981026#M
-4#nif4#Carlos Vigaray#2#1#124#19981027#M
-5#nif5#Rubén Duarte#3#1#125#19981028#M
-6#nif6#Rodrigo Ely#4#1#126#19981029#M
-7#nif7#Víctor Laguardia#5#1#127#19981030#M
-8#nif8#Guillermo Maripán#6#1#128#19981031#M
-9#nif9#Ximo Navarro#15#1#129#19981002#M
-10#nif10#Adrián Marín#17#1#130#19981003#M
-11#nif11#Martín Aguirregabiria#21#1#131#19981004#M
-12#nif12#Adrián Diéguez	#26#1#132#19981005#M
-13#nif13#Tomás Pina#8#1#133#19981006#M
-14#nif14#Ibai Gómez#11#1#134#19981007#M
-15#nif15#Burgui#14#1#135#19981008#M
-16#nif16#Daniel Torres#16#1#136#19981009#M
-17#nif17#Manu García#19#1#137#19981010#M
-18#nif18#Darko Brasanac#20#1#138#19981011#M
-19#nif19#Mubarak Wakaso#22#1#139#19981012#M
-20#nif20#Jony#23#1#140#19981013#M
-21#nif21#Antonio Perera#27#1#141#19981014#M
-22#nif22#Rubén Sobrino#7#1#142#19981015#M
-23#nif23#John Guidetti#10#1#143#19981016#M
-24#nif24#Jonathan Calleri#12#1#144#19981017#M
-25#nif25#Borja Bastón#18#1#145#19981018#M
-26#nif26#Patrick Twumasi#24#1#146#19981019#M
-27#nif27#Andrei Lupu#34#1#147#19981020#M
-28#nif28#Álex Remiro#1#2#148#19981021#M
-29#nif29#Iago Herrerín#13#2#149#19981022#M
-30#nif30#Unai Simón#25#2#150#19981023#M
-31#nif31#Hodei Oleaga#26#2#151#19981024#M
-32#nif32#Cristian Ganea#2#2#152#19981025#M
-33#nif33#Unai Núñez#3#2#153#19981026#M
-34#nif34#Íñigo Martínez#4#2#154#19981027#M
-35#nif35#Yeray Álvarez#5#2#155#19981028#M
-36#nif36#Yuri#12#2#156#19981029#M
-37#nif37#Íñigo Lekue#15#2#157#199810300#M
-38#nif38#Óscar De Marcos#18#2#158#19981001#M
-39#nif39#Ander Capa#21#2#159#19981002#M
-40#nif40#Mikel Balenziaga#24#2#	160#19981003#M
-41#nif41#Mikel San José#6#2#161#19981004#M
-42#nif42#Beñat Etxebarria#7#2#162#19981005#M
-43#nif43#Ander Iturraspe#8#2#163#19981006#M
-44#nif44#Iñigo Córdoba#11#2#164#19981007#M
-45#nif45#Markel Susaeta#14#2#165#19981008#M
-46#nif46#Dani García#16#2#166#19981009#M
-47#nif47#Mikel Rico#17#2#167#19981010#M
-48#nif48#Raúl García#22#2#168#1998111#M
-49#nif49#Unai López#23#2#169#19981072#M
-50#nif50#Peru Nolaskoain#31#2#170#19981013#M
-51#nif51#Iñaki Williams#9#2#171#19981014#M
-52#nif52#Iker Muniain#10#2#172#19981015#M
-53#nif53#Aritz Aduriz#20#2#173#19981016#M
-54#nif54#Gorka Guruzeta#30#2#174#19981017#M
-55#nif55#Antonio Adán#1#3#175#19981018#M
-56#nif56#1Jan Oblak#13#3#176#19981019#M
-57#nif57#Alex Dos Santos#25#3#177#19981020#M
-58#nif58#Diego Godín#2#3#178#19981021#M
-59#nif59#Filipe Luís#3#3#179#19981022#M
-60#nif60#Santiago Arias#4#3#180#19981023#M
-61#nif61#Stefan Savic#15#3#181#19981024	M
-62#nif62#Juanfran#20#3#182#19981025#M
-63#nif63#Lucas Hernández#21#3#183#19981026#M
-64#nif64#José Giménez#24#3#184#19981027#M
-65#nif65#Andrés Solano#33#3#185#19981028#M
-66#nif66#Francisco Montero#35#3#186#19981029#M
-67#nif67#Tachi#36#3#187#19981030#M
-68#nif68#Carlos Isaac Muñoz#38#3#188#19981031#M
-69#nif69#Thomas Partey#5#3#189#19981002#M
-70#nif70#Koke#6#3#190#19981003#M
-71#nif71#Saúl Ñíguez#8#3#191#19981004#M
-72#nif72#Thomas Lemar#11#3#192#19981005#M
-73#nif73#Rodrigo#14#3#193#19981006#M
-74#nif74#Vitolo#23#3#194#19981007#M
-75#nif75#Toni Moya#43#3#195#19981008#M
-76#nif76#Antoine Griezmann#7#3#196#19981009#M
-77#nif77#Nikola Kalinic#9#3#197#19981110#M
-78#nif78#Ángel Correa#10#3#198#	19981111#M
-79#nif79#Gelson Martins#18#3#199#19981112#M
-80#nif80#Diego Costa#19#3#200#19981113#M
-81#nif81#Borja Garcés#32#3#201#19981114#M
-82#nif82#Joaquín Muñoz#47#3#202#19981115#M
-83#nif83#Marc-André ter Stegen#1#4#203#19981116#M
-84#nif84#Jasper Cillessen#13#4#204#19981117#M
-85#nif85#Iñaki Peña#30#4#205#19981118#M
-86#nif86#Jokin Ezkieta#31#4#206#19981119#M
-87#nif87#Nélson Semedo#2#4#207#19981120#M
-88#nif88#Gerard Piqué#3#4#208#19981121#M
-89#nif89#Clément Lenglet#15#4#209#19981122#M
-90#nif90#Jordi Alba#18#4#210#19981123#M
-91#nif91#Sergi Roberto#20#4#211#19981124#M
-92#nif92#Samuel Umtiti#23#4#212#1998125#M
-93#nif93#Thomas Vermaelen#24#4#213#19981126#M
-94#nif94#Juan Miranda#27#4#214#	19981127#M
-95#nif95#Jorge Cuenca#33#4#215#	19981128#M
-96#nif96#Chumi#36#4#216#19981129#M
-97#nif97#Guillem Jaime#38#4#217#19981130#M
-98#nif98#Ivan Rakitic#4#4#218#19981101#M
-99#nif99#Sergio Busquets#5#4#219#19981102#M
-100#nif100#Denis Suárez	#6#4#220#1998103#M
-101#nif101#Coutinho#7#4#221#19981104#M
-102#nif102#Arthur#8#4#222#19981105#M
-103#nif103#Rafinha#12#4#223#19981106#M
-104#nif104#Sergi Samper#16#4#224#19981107#M
-105#nif105#Carles Aleñá#21#4#225#19981108#M
-106#nif106#Arturo Vidal	#22#4#226#19981109#M
-107#nif107#Riqui Puig#28#4#227#19981110#M
-108#nif108#Álex Collado#34#4#228#19981111#M
-109#nif109#Oriol Busquets#35#4#229#19981112#M
-110#nif110#Luis Suárez#9#4#230#19981113#M
-111#nif111#Lionel Messi#10#4#231#19981114#M
-112#nif112#Ousmane Dembélé#11#4#232#19981115#M
-113#nif113#Malcom#14#4#233#19981116#M
-114#nif114#Munir El Haddadi#19#4#234#19981117#M
-115#nif115#Sergio Álvarez#1#5#235#19981118#M
-116#nif116#Rubén Blanco#13#5#236#19981119#M
-117#nif117#Iván Villar#26#5#237#1998120#M
-118#nif118#Hugo Mallo#2#5#238#19981121#M
-119#nif119#David Costas#3#5#239#19981122#M
-120#nif120#Néstor Araújo#4#5#240#19981123#M
-121#nif121#Robert Mazán#15#5#241#19981124#M
-122#nif122#David Juncà#17#5#242#19981125#M
-123#nif123#Kevin Vázquez#20#5#243#19981126#M
-124#nif124#Gustavo Cabral#22#5#244#19981127#M
-125#nif125#Facundo Roncaglia#24#5#245#1998128#M
-126#nif126#Júnior Alonso#25#5#246#19981129#M
-127#nif127#Okay Yokuslu#5#5#247#19981130#M
-128#nif128#Nemanja Radoja#6#5#248#19981101#M
-129#nif129#Fran Beltrán#8#5#249#19981102#M
-130#nif130#Stanislav Lobotka#14#5#250#1998103#M
-131#nif131#Andrew Hjulsager#16#5#251#19981104#M
-132#nif132#Mathias Jensen#18#5#252#19981105#M
-133#nif133#Sofiane Boufal#19#5#253#19981106#M
-134#nif134#Jozabed Sánchez#21#5#254#19981107#M
-135#nif135#Brais Méndez#23#5#255#19981108#M
-136#nif136#Emre Mor#7#5#256#19981109#M
-137#nif137#Maxi Gómez#9#5#257#19981120#M
-138#nif138#Iago Aspas#10#5#258#19981121#M
-139#nif139#Pione Sisto#11#5#259#19981122#M
-140#nif140#Dennis Eckert#32#5#260#19981123#M
-141#nif141#Marko Dmitrovic#1#6#261#1998124#M
-142#nif142#Asier Riesgo#13#6#262#19981125#M
-143#nif143#Markel Areitio#35#6#263#19981126#M
-144#nif144#Jordi Calavera#2#6#264#1998127#M
-145#nif145#Pedro Bigas#3#6#265#19981128#M
-146#nif146#Iván Ramis#4#6#266#19981129#M
-147#nif147#Paulo Oliveira#12#6#267#19981130#M
-148#nif148#Cote#15#6#268#19981101#M
-149#nif149#Marc Cucurella#20#6#269#19981102#M
-150#nif150#Anaitz Arbilla#23#6#270#19981103#M
-151#nif151#Gonzalo Escalante#5#6#271#19981104#M
-152#nif152#Sergio Álvarez#6#6#272#19981105#M
-153#nif153#Pape Diop#8#6#273#19981106#M
-154#nif154#Rubén Peña#11#6#274#19981107#M
-155#nif155#Fabián Orellana#14#6#275#19981108#M
-156#nif156#Pablo De Blasis#16#6#276#19981109#M
-157#nif157#Pablo Hervías#18#6#277#19981110#M
-158#nif158#Pedro León#21#6#278#19981111#M
-159#nif159#Joan Jordán#24#6#279#19981112#M
-160#nif160#Marc Cardona#7#6#280#19981113#M
-161#nif161#Sergi Enrich#9#6#281#19981114#M
-162#nif162#Kike García#17#6#282#19981115#M
-163#nif163#Charles#19#6#283#19981116#M
-164#nif164#Pere Milla#22#6#284#	19981117#M
-165#nif165#Roberto Jiménez#1#7#285#1998118#M
-166#nif166#Diego López#13#7#286#19981119#M
-167#nif167#Pipa#2#7#287#19981120#M
-168#nif168#Naldo#5#7#288#19981121#M
-169#nif169#Óscar Duarte	#6#7#289#19981122#M
-170#nif170#Roberto Rosales#8#7#29#19981223#M
-171#nif171#Dídac Vilá#12#7#291#19981124#M
-172#nif172#David López#15#7#292#19981125#M
-173#nif173#Javi López#16#7#293#19981126#M
-174#nif174#Mario Hermoso#22#7#294#19981127#M
-175#nif175#Lluís López#27#7#295#19981128#M
-176#nif176#Adrià Pedrosa#28#7#296#1998129#M
-177#nif177#Víctor Sánchez#4#7#297#1998130#M
-178#nif178#Sergi Darder#10#7#298#19981201#M
-179#nif179#Óscar Melendo#14#7#299#19981202#M
-180#nif180#Álex López#18#7#300#19981203#M
-181#nif181#Pablo Piatti#19#7#301#19981204#M
-182#nif182#Marc Roca#21#7#302#19981205#M
-183#nif183#Esteban Granero#23#7#303#19981206#M
-184#nif184#Borja Iglesias#7#7#304#19981207#M
-185#nif185#Sergio García#9#7#305#19981208#M
-186#nif186#Leo Baptistao#11#7#306#19981209#M
-187#nif187#Hernán Pérez#17#7#307#19981210#M
-188#nif188#Javi Puado#20#7#308#19981211#M
-189#nif189#Carlos Doncel#29#7#309#19981212#M
-190#nif190#Leandro Chichizola#1#8#310#19981213#M
-191#nif191#David Soria#	13#8#311#19981214#M
-192#nif192#Rubén Yáñez#	25#8#312#19981215#M
-193#nif193#Djené Dakonam#2#8#313#19981216#M
-194#nif194#Vitorino Antunes#3#8#314#19981217#M
-195#nif195#Bruno González#4#8#315#19981218#M
-196#nif196#Leandro Cabrera#6#8#316#19981219#M
-197#nif197#Ignasi Miquel#21#8#317#19981220#M
-198#nif198#Damián Suárez#22#8#318#19981221#M
-199#nif199#Dimitri Foulquier#24#8#319#19981222#M
-200#nif200#Markel Bergara#5#8#320#19981223#M
-201#nif201#Francisco Portillo#8#8#321#19981224#M
-202#nif202#Gaku Shibasaki#10#8#322#19981225#M
-203#nif203#Sebastián Cristóforo#15#8#323#19981226#M
-204#nif204#Robert Ibáñez#17#8#324#19981227#M
-205#nif205#Mauro Arambarri#18#8#325#19981228#M
-206#nif206#Nemanja Maksimovic#20#8#326#	19981229#M
-207#nif207#Iván Alejo#23#8#327#19981230#M
-208#nif208#Jaime Mata#7#8#328#19981231#M
-209#nif209#Ángel Rodríguez#9#8#329#19981202#M
-210#nif210#Amath Ndiaye#11#8#330#19981203#M
-211#nif211#Sergi Guardiola#14#8#331#19981204#M
-212#nif212#Jorge Molina#19#8#332#19981205#M
-213#nif213#Hugo Duro#27#8#333#19981236#M
-214#nif214#Gorka Iraizoz#1#9#334#19981207#M
-215#nif215#Yassine Bounou#13#9#335#19981208#M
-216#nif216#José Aurelio Suárez#30#9#336#19981203#M
-217#nif217#Marc Vito#36#9#337#19981205#M
-218#nif218#Bernardo Espinosa#2#9#338#19981201#M
-219#nif219#Johan Mojica#3#9#339#19981202#M
-220#nif220#Jonás Ramalho#4#9#340#19981203#M
-221#nif221#Pedro Alcalá#5#9#341#19981204#M
-222#nif222#Juanpe#15#9#342#19981205#M
-223#nif223#Marc Muniesa#20#9#343#19981206#M
-224#nif224#Carles Planas#21#9#344#19981207#M
-225#nif225#Èric Montes#	28#9#345#19981208#M
-226#nif226#Álex Granell#6#9#346#19981209#M
-227#nif227#Pere Pons#8#9#347#19981210#M
-228#nif228#Portu#9#9#348#19981211#M
-229#nif229#Borja García#10#9#349#19981212#M
-230#nif230#Aday Benítez#11#9#350#19981213#M
-231#nif231#Douglas Luiz#12#9#351#19981214#M
-232#nif232#Patrick Roberts#17#9#352#19981215#M
-233#nif233#Aleix García#23#9#353#19981216#M
-234#nif234#Yhoan Andzouana#26#9#354#19981217#M
-235#nif235#Kevin Soni#27#9#355#19981218#M
-236#nif236#Pedro Porro#29#9#356#19981219#M
-237#nif237#Paik Seung-Ho#32#9#357#19981220#M
-238#nif238#Valery Fernández#34#9#358#19981221#M
-239#nif239#Cristhian Stuani#7#9#359#19981222#M
-240#nif240#Anthony Lozano#19#9#360#19981223#M
-241#nif241#Seydou Doumbia#22#9#361#19981224#M
-242#nif242#Axel Werner#1#10#362#19981225#M
-243#nif243#Roberto Santamaría#13#10#363#19981226#M
-244#nif244#Aleksandar Jovanovic#25#10#364#1998127#M
-245#nif245#Xabier Etxeita#3#10#365#19981228#M
-246#nif246#Rúben Semedo#4#10#366#19981229#M
-247#nif247#Jorge Pulido#14#10#367#19981230#M
-248#nif248#Carlos Akapo#15#10#368#19981201#M
-249#nif249#Luisinho#16#10#369#19981202#M
-250#nif250#Pablo Ínsua#18#10#370#19981203#M
-251#nif251#Rajko Brezancic#20#10#371#19981204#M
-252#nif252#Jorge Miramón#24#10#372#19981205#M
-253#nif253#Javier Almerge#27#10#373#19981206#M
-254#nif254#Juan Aguilera#5#10#374#19981207#M
-255#nif255#Moi Gómez#6#10#375#19981208#M
-256#nif256#David Ferreiro#7#10#376#19981209#M
-257#nif257#Gonzalo Melero#8#10#377#19981210#M
-258#nif258#Camacho#10#10#378#19981211#M
-259#nif259#Christian Rivera#17#10#379#19981212#M
-260#nif260#Serdar Gurler#21#10#380#19981213#M
-261#nif261#Lluis Sastre#22#10#381#19981214#M
-262#nif262#Damián Musto#23#10#382#19981215#M
-263#nif263#José Ignacio Uche#26#10#383#	19981216#M
-264#nif264#Juan Camilo Hernández#9#10#384#19981217#M
-265#nif265#Álex Gallar#11#10#385#19981218#M
-266#nif266#Samuele Longo#12#10#386#19981219#M
-267#nif267#Ezequiel Ávila#19#10#387#19981210#M
-268#nif268#Iván Cuéllar#1#11#388#19981221#M
-269#nif269#Jon Serantes#13#11#389#19981222#M
-270#nif270#Andriy Lunin#29#11#390#19981223#M
-271#nif271#Juanfran#2#11#391#19981224#M
-272#nif272#Unai Bustinza#3#11#392#19981225#M
-273#nif273#Jonathan Silva#5#11#393#19981226#M
-274#nif274#Allan Nyom#12#11#394#19981227#M
-275#nif275#Raúl García#14#11#395#19981228#M
-276#nif276#Mauro Dos Santos#15#11#396#19981229#M
-277#nif277#Ezequiel Muñoz#19#11#397#1998031#M
-278#nif278#Dimitrios Siovas#22#11#398#19980301#M
-279#nif279#Kenneth Omeruo#24#11#399#19980302#M
-280#nif280#Rodrigo Tarín#28#11#400#19980303#M
-281#nif281#Gerard Gumbau#6#11#401#19980304#M
-282#nif282#Recio#8#11#402#19980305#M
-283#nif283#Nabil El Zhar#10#11#403#19980306#M
-284#nif284#Alexander Szymanowski#11#11#404#19980307#M
-285#nif285#Javier Eraso#17#11#405#19980308#M
-286#nif286#Rubén Pérez#21#11#406#19980309#M
-287#nif287#Mikel Vesga#23#11#407#19980310#M
-288#nif288#Óscar Rodríguez#27#11#408#19980311#M
-289#nif289#Diego Rolan#4#11#409#19980312#M
-290#nif290#Daniel Ojeda#7#11#410#19980313#M
-291#nif291#Guido Carrillo#9#11#411#19980314#M
-292#nif292#José Arnáiz#	16#11#412#19980315#M
-293#nif293#Sabin Merino#18#11#413#19980316#M
-294#nif294#Michael Santos#20#11#414#19980317#M
-295#nif295#Youssef En-Nesyri#26#11#415#19980318#M
-296#nif296#Javier Avilés#33#11#416#19980319#M
-297#nif297#Koke#1#12#417#19980320#M
-298#nif298#Oier Olazábal#13#12#418#19980321#M
-299#nif299#Aitor Fernández#25#12#419#19980322#M
-300#nif300#Toño#3#12#420#199802
-323#M
-301#nif301#Rober Pier#4#12#421#19981324#M
-302#nif302#Chema Rodríguez#6#12#422#19981325#M
-303#nif303#Coke#12#12#423#19981326#M
-304#nif304#Sergio Postigo#15#12#424#19981327#M
-305#nif305#Erick Cabaco#18#12#425#19981328#M
-306#nif306#Pedro López#19#12#426#19981329#M
-307#nif307#Antonio Luna#22#12#427#19981330#M
-308#nif308#Genís Montolio#26#12#428#19981331#M
-309#nif309#Cheick Doukouré#5#12#429#19981332#M
-310#nif310#Sanjin Prcic#8#12#430#19981333#M
-311#nif311#Enis Bardhi#10#12#431#19981334#M
-312#nif312#José Luis Morales#11#12#432#19981335#M
-313#nif313#Samu García#14#12#433#19981336#M
-314#nif314#Rubén Rochina#16#12#434#19981337#M
-315#nif315#Nikola Vukcevic#17#12#435#19981338#M
-316#nif316#José Campaña#24#12#436#19981339#M
-317#nif317#Fran Manzanara#27#12#437#19981340#M
-318#nif318#Armando Sadiku#0#12#438#19981341#M
-319#nif319#Borja Mayoral#2#12#439#19981342#M
-320#nif320#Moses Simon#7#12#440#19981343#M
-321#nif321#Roger Martí#9#12#441#19981344#M
-322#nif322#Raphael Dwamena#20#12#442#19981345#M
-323#nif323#Emmanuel Boateng#21#12#443#19981346#M
-324#nif324#Jason#23#12#444#19981347#M
-325#nif325#Alberto García#1#13#445#19981348#M
-326#nif326#Stole Dimitrievski#13#13#446#19981349#M
-327#nif327#Miguel Ángel Morro#30#13#447#19981350#M
-328#nif328#José León#0#13#448#19981351#M
-329#nif329#Tito#2#13#449#19981352#M
-330#nif330#Chechu Dorado#5#13#450#19981353#M
-331#nif331#Jordi Amat#16#13#451#19981354#M
-332#nif332#Luis Advíncula#17#13#452#19981355#M
-333#nif333#Emiliano Velázquez#20#13#453#19981356#M
-334#nif334#Abdoulaye Ba#21#13#454#19981357#M
-335#nif335#Alejandro Gálvez#23#13#455#19981358#M
-336#nif336#Sergio Akieme#28#13#456#19981359#M
-337#nif337#Martín Pascual#31#13#457#19981360#M
-338#nif338#Luis Meseguer#33#13#458#19981361#M
-339#nif339#Álvaro Medrán#4#13#459#19981362#M
-340#nif340#Gorka Elustondo#6#13#460#19981363#M
-341#nif341#Álex Moreno#7#13#461#19981364#M
-342#nif342#Gaël Kakuta#10#13#462#19981365#M
-343#nif343#Giannelli Imbula#12#13#463#19981366#M
-344#nif344#Álvaro García#18#13#464#19981367#M
-345#nif345#José Pozo#22#13#465#19981368#M
-346#nif346#Santiago Comesaña#27#13#466#19981369#M
-347#nif347#Manuel Navarro#34#13#467#19981370#M
-348#nif348#Ángel Algobia#35#13#468#19981371#M
-349#nif349#Óscar Trejo#8#13#469#19981372#M
-350#nif350#Raúl de Tomás#9#13#470#19981373#M
-351#nif351#Adrián Embarba#11#13#471#19981374#M
-352#nif352#Bebé#14#13#472#19981375#M
-353#nif353#Álex Alegría#15#13#473#19981376#M
-354#nif354#Lass#19#13#474#19981377#M
-355#nif355#Javi Guerra#24#13#475#19981378#M
-356#nif356#Sergio Moreno#29#13#476#19981379#M
-357#nif357#Joel Robles#1#14#477#19981380#M
-358#nif358#Pau López#13#14#478#19981381#M
-359#nif359#Zouhair Feddal#4#14#479#19981382#M
-360#nif360#Marc Bartra#5#14#480#19981383#M
-361#nif361#Sidnei#12#14#481#19981384#M
-362#nif362#Antonio Barragán#19#14#482#19981385#M
-363#nif363#Júnior Firpo#20#14#483#19981386#M
-364#nif364#Aissa Mandi#23#14#484#19981387M
-365#nif365#Edgar González#32#14#485#19981388#M
-366#nif366#Francis#2#14#486#19981389#M
-367#nif367#Javi García#3#14#487#19981390#M
-368#nif368#Sergio Canales#6#14#488#19981391#M
-369#nif369#Takashi Inui#8#14#489#19981392#M
-370#nif370#Ryad Boudebouz#10#14#490#19981393#M
-371#nif371#William Carvalho#14#14#491#19981394#M
-372#nif372#Joaquín#17#14#492#19981395#M
-373#nif373#Andrés Guardado#18#14#493#19981396#M
-374#nif374#Giovani Lo Celso#21#14#494#19981397#M
-375#nif375#Wilfrid Kaptoum#34#14#495#19981398#M
-376#nif376#Diego Altamirano#37#14#496#19981399#M
-377#nif377#Sergio León#7#14#497#19981400#M
-378#nif378#Antonio Sanabria#9#14#498#19981401#M
-379#nif379#Cristian Tello#11#14#499#19981402#M
-380#nif380#Loren Morón#16#14#500#19981403#M
-381#nif381#Robert#33#14#501#19981404#M
-382#nif382#Keylor Navas#1#15#502#19981405#M
-383#nif383#Kiko Casilla#13#15#503#19981406#M
-384#nif384#Thibaut Courtois#25#15#504#19981407#M
-385#nif385#Daniel Carvajal#2#15#505#19981408#M
-386#nif386#Jesús Vallejo#3#15506#19981409#M
-387#nif387#Sergio Ramos#4#15#507#19981410#M
-388#nif388#Raphael Varane#5#15#508#19981411#M
-389#nif389#Nacho#6#15#509#19981412#M
-390#nif390#Marcelo#12#15#510#19981413#M
-391#nif391#Álvaro Odriozola#19#15#511#19981414#M
-392#nif392#Sergio Reguilón#23#15#512#19981415#M
-393#nif393#Adrian De la Fuente#26#15#513#19981416#M
-394#nif394#3Javi Sánchez#31#15#514#19981417#M
-395#nif395#Francisco Garcia#37#15#515#19981418#M
-396#nif396#Toni Kroos#8#15#516#	19981419#M
-397#nif397#Luka Modric#10#15#51#19981420#M
-398#nif398#Casemiro#14#15#518#19981421#M
-399#nif399#Federico Valverde#15#15#519#19981422#M
-400#nif400#Lucas Vázquez#17#15#520#19981423#M
-401#nif401#Marcos Llorente#18#15#521#19981424#M
-402#nif402#Marco Asensio#20#15#522#19981425#M
-403#nif403#Isco#22#15#523#19981426#M
-404#nif404#Dani Ceballos#24#15#524#19981427#M
-405#nif405#Franchu#34#15#525#19981428#M
-406#nif406#Álvaro Fidalgo#36#15#526#19981429#M
-407#nif407#Mariano#7#15#527#19981430#M
-408#nif408#Karim Benzema#9#15#528#19981431#M
-409#nif409#Gareth Bale#11#15#529#19981432#M
-410#nif410#Cristo González#27#15#530#19981433#M
-411#nif411#Vinícius Júnior#28#15#531#19981434#M
-412#nif412#Gerónimo Rulli#1#16#532#19981435#M
-413#nif413#Miguel Ángel Moyá#13#16#533#19981436#M
-414#nif414#Andoni Zubiaurre#30#16#534#19981437#M
-415#nif415#Joseba Zaldua#2#16#535#19981438#M
-416#nif416#Diego Llorente#3#16#536#19981439#M
-417#nif417#Héctor Moreno#6#16#537#19981440#M
-418#nif418#Aritz Elustondo#15#16#538#19981441#M
-419#nif419#Andoni Gorosabel#18#16#539#19981442#M
-420#nif420#Theo Hernández#19#16#540#19981443#M
-421#nif421#Kévin Rodrigues#20#16#541#19981444#M
-422#nif422#Raúl Navas#22#16#542#19981445#M
-423#nif423#Robin Le Normand#27#16#543#19981446#M
-424#nif424#Aihen Muñoz#	29#16#544#19981447#M
-425#nif425#Jon Guridi#0#16#545#19981448#M
-426#nif426#David Concha#0#16#546#19981449#M
-427#nif427#Asier Illarramendi#4#16#547#19981450#M
-428#nif428#Igor Zubeldia#5#16#548#19981451#M
-429#nif429#Mikel Merino#8#16#549#19981452#M
-430#nif430#Adnan Januzaj#11#16#550#19981453#M
-431#nif431#Rubén Pardo#14#16#551#19981454#M
-432#nif432#David Zurutuza#17#16#552#19981455#M
-433#nif433#Luca Sangalli#23#16#553#19981456#M
-434#nif434#Ander Guevara#26#16#554#19981457#M
-435#nif435#Näis Djouahra#31#16#555#19981458#M
-436#nif436#Juanmi#7#16#556#19981459#M
-437#nif437#Mikel Oyarzabal#10#16#557#19981460#M
-438#nif438#Willian José#12#16#558#19981461#M
-439#nif439#Martín Merquelanz#16#16#559#19981462	#M
-440#nif440#Jon Bautista#21#16#560#19981463#M
-441#nif441#Sandro Ramírez#24#16#561#19981464#M
-442#nif442#Roberto López#28#16#562#19981465#M
-443#nif443#Jordi Masip#1#17#563#19981466#M
-444#nif444#Yoel Rodríguez#13#17#564#19981467#M
-445#nif445#Samuel Pérez#26#17#565#19981468#M
-446#nif446#Moisés Delgado#3#17#566#19981469#M
-447#nif447#Kiko Olivas#4#17#567#19981470#M
-448#nif448#Fernando Calero#5#17#568#19981471#M
-449#nif449#Alberto Guitián#15#17#569#19981472#M
-450#nif450#Javi Moyano#17#17#570#19981473#M
-451#nif451#Antoñito#18#17#571#19981474#M
-452#nif452#Nacho#22#17#	572#19981475#M
-453#nif453#Mohammed Salisu#18#17#573#19981476#M
-454#nif454#Roberto Corral#34#17#574#19981477#M
-455#nif455#Javier Aparicio#38#17#575#19981478#M
-456#nif456#Joaquín Fernández#2#17#576#19981479#M
-457#nif457#Luismi#6#17#577#19981480#M
-458#nif458#Borja Fernández#8#17#578#19981481#M
-459#nif459#Rubén Alcaraz#14#17#579#19981482#M
-460#nif460#Antonio Cotán#16#17#580#19981483#M
-461#nif461#Toni Villa#19#17#581	#19981484#M
-462#nif462#Míchel#21#17#582#19981485#M
-463#nif463#Anuar Mohamed#23#17#583#19981486#M
-464#nif464#Keko#24#17#584#19981487#M
-465#nif465#Pablo Muñoz#31#17#585#19981488#M
-466#nif466#Leo Suárez#32#17#586#19981489#M
-467#nif467#Ivi#7#17#587#19981490#M
-468#nif468#Enes Ünal#9#17#588#19981491#M
-469#nif469#Óscar Plano#10#17#589#19981492#M
-470#nif470#Daniele Verde#11#17#590#19981493#M
-471#nif471#Duje Cop#20#17#591#19981494#M
-472#nif472#Miguel De la Fuente#27#17#592#19981495#M
-473#nif473#Kuki Zalazar#39#17#593#19981496#M
-474#nif474#Tomás Vaclik#1#18#594#19981497#M
-475#nif475#Juan Soriano#13#18#595#19981498#M
-476#nif476#Lucho#38#18#596#19981499#M
-477#nif477#Sergi Gómez#3#18#597#19981500#M
-478#nif478#Simon Kjaer#4#18#598#19981501#M
-479#nif479#Daniel Carriço#6#18#599#19981502#M
-480#nif480#Aleix Vidal#11#18#600#19981503#M
-481#nif481#Sergio Escudero#18#18#601#19981504#M
-482#nif482#Guilherme Arana#23#18#602#19981505#M
-483#nif483#Joris Gnagnon#24#18#603#19981506#M
-484#nif484#Gabriel Mercado#25#18#604#19981507#M
-485#nif485#Juan Berrocal#37#18#605#19981508#M
-486#nif486#Javier Vázquez#40#18#606#19981509#M
-487#nif487#Ibrahim Amadou#5#18#607#19981510#M
-488#nif488#Roque Mesa#7#18#608#19981511#M
-489#nif489#Éver Banega#10#18#609#19981512#M
-490#nif490#Maxime Gonalons#15#18#610#19981513#M
-491#nif491#Jesús Navas#	16#18#611#19981514#M
-492#nif492#Pablo Sarabia#17#18#612#19981515#M
-493#nif493#Borja Lasso#	20#18#613#19981516#M
-494#nif494#Franco Vázquez#22#18	#614#19981517#M
-495#nif495#José Mena#29#18#615#19981518#M
-496#nif496#Nolito#8#18#616#19981519#M
-497#nif497#Wissam Ben Yedder#9#18#617#19981520#M
-498#nif498#André Silva#	12#18#618#19981521#M
-499#nif499#Luis Muriel#	14#18#619#19981522#M
-500#nif500#Quincy Promes#21#18#620#19981523#M
-501#nif501#Jaume Doménech#1#19#621#19981524#M
-502#nif502#Neto	#13#19#622#19981525#M
-503#nif503#Rúben Vezo#3#19#623#19981526#M
-504#nif504#Jeison Murillo#4#19#624#19981527#M
-505#nif505#Gabriel#5#19#625#19981528#M
-506#nif506#Mouctar Diakhaby#12#19#626#19981529#M
-507#nif507#José Gayá#14#19#627#19981530#M
-508#nif508#Toni Lato#15#19#628#19981531#M
-509#nif509#Cristiano Piccini#21#19#629#19981532#M
-510#nif510#Ezequiel Garay#24#19#630#19981533#M
-511#nif511#Hugo Guillamón#36#19#631#19981534#M
-512#nif512#Geoffrey Kondogbia#6#19#632#19981535#M
-513#nif513#Gonçalo Guedes#7#19#633#19981536#M
-514#nif514#Carlos Soler#8#19#634#19981537#M
-515#nif515#Daniel Parejo#10#19#635#19981538#M
-516#nif516#Denis Cheryshev#11#19#636#19981539#M
-517#nif517#Francis Coquelin#17#19#637#19981540#M
-518#nif518#Daniel Wass#18#19#638#19981541#M
-519#nif519#Ferrán Torres#20#19#639#19981542#M
-520#nif520#Uros Racic#26#19#640	#19981543#M
-521#nif521#Lee Kang-In#	34#19#641#19981544#M
-522#nif522#Kevin Gameiro#9#19#642#19981545#M
-523#nif523#Rodrigo Moreno#19#19#643#19981546#M
-524#nif524#Santi Mina#22#19#644	#19981547#M
-525#nif525#Michy Batshuayi#23#19#645#19981548#M
-526#nif526#Álex Blanco#30#19#646#19981549#M
-527#nif527#Serio Asenjo#1#20#647#19981550#M
-528#nif528#Andrés Fernández#13#20#648#19981551M
-529#nif529#Mariano Barbosa#25#20#649#19981552#M
-530#nif530#Mario Gaspar	#2#20#650#19981553#M
-531#nif531#Álvaro González#3#20#651#19981554#M
-532#nif532#Ramiro Funes Mori#4#20#652#19981555#M
-533#nif533#Víctor Ruiz	#6#20#653#19981556#M
-534#nif534#Jaume Costa	#11#20#654#19981557#M
-535#nif535#Miguelón#15#20#655#19981558#M
-536#nif536#Daniele Bonera#23#20#656#19981559#M
-537#nif537#Miguel Layún	#24#20#657#19981560#M
-538#nif538#Xavier Quintillá#39#20#658#19981561#M
-539#nif539#Santiago Cáseres#5#20#659#19981562#M
-540#nif540#Pablo Fornals#8#20#660#19981563#M
-541#nif541#Manu Trigueros#14#20#661#19981564#M
-542#nif542#Alfonso Pedraza#16#20#662#19981565#M
-543#nif543#Javi Fuego#1#20#663#19981566	#M
-544#nif544#Santi Cazorla#19#20#664#19981567#M
-545#nif545#Manuel Iturra#20#20#665#19981568#M
-546#nif546#Bruno Soriano#21#20#666#19980369#M
-547#nif547#Manuel Morlanes#28#20#667#19980370#M
-548#nif548#Samuel Chukwueze#30#20#668#19980371#M
-549#nif549#Gerard Moreno#7#20#669#19980372#M
-550#nif550#Carlos Bacca	#9#20#670#19980373#M
-551#nif551#Nicola Sansone#10#20#671#19980374#M
-552#nif552#Karl Toko Ekambi#17#20#672#19980375#M
-553#nif553#Raba	#22#20#673#19980376#M
+1#nif1#Fernando Pacheco#121#AAAAMMDD#M#1#1
+2#nif2#Antonio Sivera#122#AAAAMMDD#M#13#1
+3#nif3#Álex Domínguez#123#AAAAMMDD#M#31#1
+4#nif4#Carlos Vigaray#124#AAAAMMDD#M#2#1
+5#nif5#Rubén Duarte#125#AAAAMMDD#M#3#1
+6#nif6#Rodrigo Ely#126#AAAAMMDD#M#4#1
+7#nif7#Víctor Laguardia#127#AAAAMMDD#M#5#1
+8#nif8#Guillermo Maripán#128#AAAAMMDD#M#6#1
+9#nif9#Ximo Navarro#129#AAAAMMDD#M#15#1
+10#nif10#Adrián Marín#130#AAAAMMDD#M#17#1
+11#nif11#Martín Aguirregabiria#131#AAAAMMDD#M#21#1
+12#nif12#Adrián Diéguez#132#AAAAMMDD#M#26#1
+13#nif13#Tomás Pina#133#AAAAMMDD#M#8#1
+14#nif14#Ibai Gómez#134#AAAAMMDD#M#11#1
+15#nif15#Burgui#135#AAAAMMDD#M#14#1
+16#nif16#Daniel Torres#136#AAAAMMDD#M#16#1
+17#nif17#Manu García#137#AAAAMMDD#M#19#1
+18#nif18#Darko Brasanac#138#AAAAMMDD#M#20#1
+19#nif19#Mubarak Wakaso#139#AAAAMMDD#M#22#1
+20#nif20#Jony#140#AAAAMMDD#M#23#1
+21#nif21#Antonio Perera#141#AAAAMMDD#M#27#1
+22#nif22#Rubén Sobrino#142#AAAAMMDD#M#7#1
+23#nif23#John Guidetti#143#AAAAMMDD#M#10#1
+24#nif24#Jonathan Calleri#144#AAAAMMDD#M#12#1
+25#nif25#Borja Bastón#145#AAAAMMDD#M#18#1
+26#nif26#Patrick Twumasi#146#AAAAMMDD#M#24#1
+27#nif27#Andrei Lupu#147#AAAAMMDD#M#34#1
+28#nif28#Álex Remiro#148#AAAAMMDD#M#1#2
+29#nif29#Iago Herrerín#149#AAAAMMDD#M#13#2
+30#nif30#Unai Simón#150#AAAAMMDD#M#25#2
+31#nif31#Hodei Oleaga#151#AAAAMMDD#M#26#2
+32#nif32#Cristian Ganea#152#AAAAMMDD#M#2#2
+33#nif33#Unai Núñez#153#AAAAMMDD#M#3#2
+34#nif34#Íñigo Martínez#154#AAAAMMDD#M#4#2
+35#nif35#Yeray Álvarez#155#AAAAMMDD#M#5#2
+36#nif36#Yuri#156#AAAAMMDD#M#12#2
+37#nif37#Íñigo Lekue#157#AAAAMMDD#M#15#2
+38#nif38#Óscar De Marcos#158#AAAAMMDD#M#18#2
+39#nif39#Ander Cap#159#AAAAMMDD#M#21#2
+40#nif40#Mikel Balenziaga#160#AAAAMMDD#M#24#2
+41#nif41#Mikel San José#161#AAAAMMDD#M#6#2
+42#nif42#Beñat Etxebarria#162#AAAAMMDD#M#7#2
+43#nif43#Ander Iturraspe#163#AAAAMMDD#M#8#2
+44#nif44#Iñigo Córdoba#164#AAAAMMDD#M#11#2
+45#nif45#Markel Susaeta#165#AAAAMMDD#M#14#2
+46#nif46#Dani García#166#AAAAMMDD#M#16#2
+47#nif47#Mikel Rico#167#AAAAMMDD#M#17#2
+48#nif48#Raúl García#168#AAAAMMDD#M#22#2
+49#nif49#Unai López#169#AAAAMMDD#M#23#2
+50#nif50#Peru Nolaskoain#170#AAAAMMDD#M#31#2
+51#nif51#Iñaki Williams#171#AAAAMMDD#M#9#2
+52#nif52#Iker Muniain#172#AAAAMMDD#M#10#2
+53#nif53#Aritz Aduriz#173#AAAAMMDD#M#20#2
+54#nif54#Gorka Guruzeta#174#AAAAMMDD#M#30#2
+55#nif55#Antonio Adán#175#AAAAMMDD#M#1#3
+56#nif56#1Jan Oblak#176#AAAAMMDD#M#13#3
+57#nif57#Alex Dos Santos#177#AAAAMMDD#M#25#3
+58#nif58#Diego Godín#178#AAAAMMDD#M#2#3
+59#nif59#Filipe Luís#179#AAAAMMDD#M#3#3
+60#nif60#Santiago Arias#180#AAAAMMDD#M#4#3
+61#nif61#Stefan Savic#181#AAAAMMDD#M#15#3
+62#nif62#Juanfran#182#AAAAMMDD#M#20#3
+63#nif63#Lucas Hernández#183#AAAAMMDD#M#21#3
+64#nif64#José Giménez#184#AAAAMMDD#M#24#3
+65#nif65#Andrés Solano#185#AAAAMMDD#M#33#3
+66#nif66#Francisco Montero#186#AAAAMMDD#M#35#3
+67#nif67#Tachi#187#AAAAMMDD#M#36#3
+68#nif68#Carlos Isaac Muñoz#188#AAAAMMDD#M#38#3
+69#nif69#Thomas Partey#189#AAAAMMDD#M#5#3
+70#nif70#Koke#190#AAAAMMDD#M#6#3
+71#nif71#Saúl Ñíguez#191#AAAAMMDD#M#8#3
+72#nif72#Thomas Lemar#192#AAAAMMDD#M#11#3
+73#nif73#Rodrigo#193#AAAAMMDD#M#14#3
+74#nif74#Vitolo#194#AAAAMMDD#M#23#3
+75#nif75#Toni Moya#195#AAAAMMDD#M#43#3
+76#nif76#Antoine Griezmann#196#AAAAMMDD#M#7#3
+77#nif77#Nikola Kalinic#197#AAAAMMDD#M#9#3
+78#nif78#Ángel Correa#198#AAAAMMDD#M#10#3
+79#nif79#Gelson Martins#199#AAAAMMDD#M#18#3
+80#nif80#Diego Costa#200#AAAAMMDD#M#19#3
+81#nif81#Borja Garcés#201#AAAAMMDD#M#32#3
+82#nif82#Joaquín Muñoz#202#AAAAMMDD#M#47#3
+83#nif83#Marc-André ter Stegen#203#AAAAMMDD#M#1#4
+84#nif84#Jasper Cillessen#204#AAAAMMDD#M#13#4
+85#nif85#Iñaki Peña#205#AAAAMMDD#M#30#4
+86#nif86#Jokin Ezkieta#206#AAAAMMDD#M#31#4
+87#nif87#Nélson Semedo#207#AAAAMMDD#M#2#4
+88#nif88#Gerard Piqué#208#AAAAMMDD#M#3#4
+89#nif89#Clément Lenglet#209#AAAAMMDD#M#15#4
+90#nif90#Jordi Alba#210#AAAAMMDD#M#18#4
+91#nif91#Sergi Roberto#211#AAAAMMDD#M#20#4
+92#nif92#Samuel Umtiti#212#AAAAMMDD#M#23#4
+93#nif93#Thomas Vermaelen#213#AAAAMMDD#M#24#4
+94#nif94#Juan Miranda#214#AAAAMMDD#M#27#4
+95#nif95#Jorge Cuenca#215#AAAAMMDD#M#33#4
+96#nif96#Chumi#216#AAAAMMDD#M#36#4
+97#nif97#Guillem Jaime#217#AAAAMMDD#M#38#4
+98#nif98#Ivan Rakiticx#218#AAAAMMDD#M#4#4
+99#nif99#Sergio Busquets#219#AAAAMMDD#M#5#4
+100#nif100#Denis Suárez#220#AAAAMMDD#M#6#4
+101#nif101#Coutinho#221#AAAAMMDD#M#7#4
+102#nif102#Arthur#222#AAAAMMDD#M#8#4
+103#nif103#Rafinha#223#AAAAMMDD#M#12#4
+104#nif104#Sergi Samper#224#AAAAMMDD#M#16#4
+105#nif105#Carles Aleñá#225#AAAAMMDD#M#21#4
+106#nif106#Arturo Vidal#226#AAAAMMDD#M#22#4
+107#nif107#Riqui Puig#227#AAAAMMDD#M#28#4
+108#nif108#Álex Collado#228#AAAAMMDD#M#34#4
+109#nif109#Oriol Busquets#229#AAAAMMDD#M#35#4
+110#nif110#Luis Suárez#230#AAAAMMDD#M#9#4
+111#nif111#Lionel Messi#231#AAAAMMDD#M#10#4
+112#nif112#Ousmane Dembélé#232#AAAAMMDD#M#11#4
+113#nif113#Malcom#233#AAAAMMDD#M#14#4
+114#nif114#Munir El Haddadi#234#AAAAMMDD#M#19#4
+115#nif115#Sergio Álvarez#235#AAAAMMDD#M#1#5
+116#nif116#Rubén Blanco#236#AAAAMMDD#M#13#5
+117#nif117#Iván Villar#237#AAAAMMDD#M#26#5
+118#nif118#Hugo Mallo#238#AAAAMMDD#M#2#5
+119#nif119#David Costas#239#AAAAMMDD#M#3#5
+120#nif120#Néstor Araújo#240#AAAAMMDD#M#4#5
+121#nif121#Robert Mazán#241#AAAAMMDD#M#15#5
+122#nif122#David Juncà#242#AAAAMMDD#M#17#5
+123#nif123#Kevin Vázquez#243#AAAAMMDD#M#20#5
+124#nif124#Gustavo Cabral#244#AAAAMMDD#M#22#5
+125#nif125#Facundo Roncaglia#245#AAAAMMDD#M#24#5
+126#nif126#Júnior Alonso#246#AAAAMMDD#M#25#5
+127#nif127#Okay Yokuslu#247#AAAAMMDD#M#5#5
+128#nif128#Nemanja Radoja#248#AAAAMMDD#M#6#5
+129#nif129#Fran Beltrán#249#AAAAMMDD#M#8#5
+130#nif130#Stanislav Lobotka#250#AAAAMMDD#M#14#5
+131#nif131#Andrew Hjulsager#251#AAAAMMDD#M#16#5
+132#nif132#Mathias Jensen#252#AAAAMMDD#M#18#5
+133#nif133#Sofiane Boufal#253#AAAAMMDD#M#19#5
+134#nif134#Jozabed Sánchez#254#AAAAMMDD#M#21#5
+135#nif135#Brais Méndez#255#AAAAMMDD#M#23#5
+136#nif136#Emre Mor#256#AAAAMMDD#M#7#5
+137#nif137#Maxi Gómez#257#AAAAMMDD#M#9#5
+138#nif138#Iago Aspas#258#AAAAMMDD#M#10#5
+139#nif139#Pione Sisto#259#AAAAMMDD#M#11#5
+140#nif140#Dennis Eckert#260#AAAAMMDD#M#32#5
+141#nif141#Marko Dmitrovic#261#AAAAMMDD#M#1#6
+142#nif142#Asier Riesgo#262#AAAAMMDD#M#13#6
+143#nif143#Markel Areitio#263#AAAAMMDD#M#35#6
+144#nif144#Jordi Calavera#264#AAAAMMDD#M#2#6
+145#nif145#Pedro Bigas#265#AAAAMMDD#M#3#6
+146#nif146#Iván Ramis#266#AAAAMMDD#M#4#6
+147#nif147#Paulo Oliveira#267#AAAAMMDD#M#12#6
+148#nif148#Cote#268#AAAAMMDD#M#15#6
+149#nif149#Marc Cucurella#269#AAAAMMDD#M#20#6
+150#nif150#Anaitz Arbilla#270#AAAAMMDD#M#23#6
+151#nif151#Gonzalo Escalante#271#AAAAMMDD#M#5#6
+152#nif152#Sergio Álvarez#272#AAAAMMDD#M#6#6
+153#nif153#Pape Diop#273#AAAAMMDD#M#8#6
+154#nif154#Rubén Peña#274#AAAAMMDD#M#11#6
+155#nif155#Fabián Orellana#275#AAAAMMDD#M#14#6
+156#nif156#Pablo De Blasis#276#AAAAMMDD#M#16#6
+157#nif157#Pablo Hervías#277#AAAAMMDD#M#18#6
+158#nif158#Pedro León#278#AAAAMMDD#M#21#6
+159#nif159#Joan Jordán#279#AAAAMMDD#M#24#6
+160#nif160#Marc Cardona#280#AAAAMMDD#M#7#6
+161#nif161#Sergi Enrich#281#AAAAMMDD#M#9#6
+162#nif162#Kike García#282#AAAAMMDD#M#17#6
+163#nif163#Charles#283#AAAAMMDD#M#19#6
+164#nif164#Pere Milla#284#AAAAMMDD#M#22#6
+165#nif165#Roberto Jiménez#285#AAAAMMDD#M#1#7
+166#nif166#Diego López#286#AAAAMMDD#M#13#7
+167#nif167#Pipa#287#AAAAMMDD#M#2#7
+168#nif168#Naldo#288#AAAAMMDD#M#5#7
+169#nif169#Óscar Duarte#289#AAAAMMDD#M#6#7
+170#nif170#Roberto Rosales#29#AAAAMMDD#M#8#7
+171#nif171#Dídac Vilá#291#AAAAMMDD#M#12#7
+172#nif172#David López#292#AAAAMMDD#M#15#7
+173#nif173#Javi López#293#AAAAMMDD#M#16#7
+174#nif174#Mario Hermoso#294#AAAAMMDD#M#22#7
+175#nif175#Lluís López#295#AAAAMMDD#M#27#7
+176#nif176#Adrià Pedrosa#296#AAAAMMDD#M#28#7
+177#nif177#Víctor Sánchez#297#AAAAMMDD#M#4#7
+178#nif178#Sergi Darder#298#AAAAMMDD#M#10#7
+179#nif179#Óscar Melendo#299#AAAAMMDD#M#14#7
+180#nif180#Álex López#300#AAAAMMDD#M#18#7
+181#nif181#Pablo Piatti#301#AAAAMMDD#M#19#7
+182#nif182#Marc Roca#302#AAAAMMDD#M#21#7
+183#nif183#Esteban Granero#303#AAAAMMDD#M#23#7
+184#nif184#Borja Iglesias#304#AAAAMMDD#M#7#7
+185#nif185#Sergio García#305#AAAAMMDD#M#9#7
+186#nif186#Leo Baptistao#306#AAAAMMDD#M#11#7
+187#nif187#Hernán Pérez#307#AAAAMMDD#M#17#7
+188#nif188#Javi Puado#308#AAAAMMDD#M#20#7
+189#nif189#Carlos Doncel#309#AAAAMMDD#M#29#7
+190#nif190#Leandro Chichizola#310#AAAAMMDD#M#1#8
+191#nif191#David Soria#311#AAAAMMDD#M#13#8
+192#nif192#Rubén Yáñez#312#AAAAMMDD#M#25#8
+193#nif193#Djené Dakonam#313#AAAAMMDD#M#2#8
+194#nif194#Vitorino Antunes#314#AAAAMMDD#M#3#8
+195#nif195#Bruno González#315#AAAAMMDD#M#4#8
+196#nif196#Leandro Cabrera#316#AAAAMMDD#M#6#8
+197#nif197#Ignasi Miquel#317#AAAAMMDD#M#21#8
+198#nif198#Damián Suárez#318#AAAAMMDD#M#22#8
+199#nif199#Dimitri Foulquier#319#AAAAMMDD#M#24#8
+200#nif200#Markel Bergara#320#AAAAMMDD#M#5#8
+201#nif201#Francisco Portillo#321#AAAAMMDD#M#8#8
+202#nif202#Gaku Shibasaki#322#AAAAMMDD#M#10#8
+203#nif203#Sebastián Cristóforo#323#AAAAMMDD#M#15#8
+204#nif204#Robert Ibáñez#324#AAAAMMDD#M#17#8
+205#nif205#Mauro Arambarri#325#AAAAMMDD#M#18#8
+206#nif206#Nemanja Maksimovic#326#AAAAMMDD#M#20#8
+207#nif207#Iván Alejo#327#AAAAMMDD#M#23#8
+208#nif208#Jaime Mata#328#AAAAMMDD#M#7#8
+209#nif209#Ángel Rodríguez#329#AAAAMMDD#M#9#8
+210#nif210#Amath Ndiaye#330#AAAAMMDD#M#11#8
+211#nif211#Sergi Guardiola#331#AAAAMMDD#M#14#8
+212#nif212#Jorge Molina#332#AAAAMMDD#M#19#8
+213#nif213#Hugo Duro#333#AAAAMMDD#M#27#8
+214#nif214#Gorka Iraizoz#334#AAAAMMDD#M#1#9
+215#nif215#Yassine Bounou#335#AAAAMMDD#M#13#9
+216#nif216#José Aurelio Suárez#336#AAAAMMDD#M#30#9
+217#nif217#Marc Vito#337#AAAAMMDD#M#36#9
+218#nif218#Bernardo Espinosa#338#AAAAMMDD#M#2#9
+219#nif219#Johan Mojica#339#AAAAMMDD#M#3#9
+220#nif220#Jonás Ramalho#340#AAAAMMDD#M#4#9
+221#nif221#Pedro Alcalá#341#AAAAMMDD#M#5#9
+222#nif222#Juanpe#342#AAAAMMDD#M#15#9
+223#nif223#Marc Muniesa#343#AAAAMMDD#M#20#9
+224#nif224#Carles Planas#344#AAAAMMDD#M#21#9
+225#nif225#Èric Montes#345#AAAAMMDD#M#28#9
+226#nif226#Álex Granell#346#AAAAMMDD#M#6#9
+227#nif227#Pere Pons#347#AAAAMMDD#M#8#9
+228#nif228#Portu#348#AAAAMMDD#M#9#9
+229#nif229#Borja García#349#AAAAMMDD#M#10#9
+230#nif230#Aday Benítez#350#AAAAMMDD#M#11#9
+231#nif231#Douglas Luiz#351#AAAAMMDD#M#12#9
+232#nif232#Patrick Roberts#352#AAAAMMDD#M#17#9
+233#nif233#Aleix García#353#AAAAMMDD#M#23#9
+234#nif234#Yhoan Andzouana#354#AAAAMMDD#M#26#9
+235#nif235#Kevin Soni#355#AAAAMMDD#M#27#9
+236#nif236#Pedro Porro#356#AAAAMMDD#M#29#9
+237#nif237#Paik Seung-Ho#357#AAAAMMDD#M#32#9
+238#nif238#Valery Fernández#358#AAAAMMDD#M#34#9
+239#nif239#Cristhian Stuani#359#AAAAMMDD#M#7#9
+240#nif240#Anthony Lozano#360#AAAAMMDD#M#19#9
+241#nif241#Seydou Doumbia#361#AAAAMMDD#M#22#9
+242#nif242#Axel Werner#362#AAAAMMDD#M#1#10
+243#nif243#Roberto Santamaría#363#AAAAMMDD#M#13#10
+244#nif244#Aleksandar Jovanovic#364#AAAAMMDD#M#25#10
+245#nif245#Xabier Etxeita#365#AAAAMMDD#M#3#10
+246#nif246#Rúben Semedo#366#AAAAMMDD#M#4#10
+247#nif247#Jorge Pulido#367#AAAAMMDD#M#14#10
+248#nif248#Carlos Akapo#368#AAAAMMDD#M#15#10
+249#nif249#Luisinho#369#AAAAMMDD#M#16#10
+250#nif250#Pablo Ínsua#370#AAAAMMDD#M#18#10
+251#nif251#Rajko Brezancic#371#AAAAMMDD#M#20#10
+252#nif252#Jorge Miramón#372#AAAAMMDD#M#24#10
+253#nif253#Javier Almerge#373#AAAAMMDD#M#27#10
+254#nif254#Juan Aguilera#374#AAAAMMDD#M#5#10
+255#nif255#Moi Gómez#375#AAAAMMDD#M#6#10
+256#nif256#David Ferreiro#376#AAAAMMDD#M#7#10
+257#nif257#Gonzalo Melero#377#AAAAMMDD#M#8#10
+258#nif258#Camacho#378#AAAAMMDD#M#10#10
+259#nif259#Christian Rivera#379#AAAAMMDD#M#17#10
+260#nif260#Serdar Gurler#380#AAAAMMDD#M#21#10
+261#nif261#Lluis Sastre#381#AAAAMMDD#M#22#10
+262#nif262#Damián Musto#382#AAAAMMDD#M#23#10
+263#nif263#José Ignacio Uche#383#AAAAMMDD#M#26#10
+264#nif264#Juan Camilo Hernández#384#AAAAMMDD#M#9#10
+265#nif265#Álex Gallar#385#AAAAMMDD#M#11#10
+266#nif266#Samuele Longo#386#AAAAMMDD#M#12#10
+267#nif267#Ezequiel Ávila#387#AAAAMMDD#M#19#10
+268#nif268#Iván Cuéllar#388#AAAAMMDD#M#1#11
+269#nif269#Jon Serantes#389#AAAAMMDD#M#13#11
+270#nif270#Andriy Lunin#390#AAAAMMDD#M#29#11
+271#nif271#Juanfran#391#AAAAMMDD#M#2#11
+272#nif272#Unai Bustinza#392#AAAAMMDD#M#3#11
+273#nif273#Jonathan Silva#393#AAAAMMDD#M#5#11
+274#nif274#Allan Nyom#394#AAAAMMDD#M#12#11
+275#nif275#Raúl García#395#AAAAMMDD#M#14#11
+276#nif276#Mauro Dos Santos#396#AAAAMMDD#M#15#11
+277#nif277#Ezequiel Muñoz#397#AAAAMMDD#M#19#11
+278#nif278#Dimitrios Siovas#398#AAAAMMDD#M#22#11
+279#nif279#Kenneth Omeruo#399#AAAAMMDD#M#24#11
+280#nif280#Rodrigo Tarín#400#AAAAMMDD#M#28#11
+281#nif281#Gerard Gumbau#401#AAAAMMDD#M#6#11
+282#nif282#Recio#402#AAAAMMDD#M#8#11
+283#nif283#Nabil El Zhar#403#AAAAMMDD#M#10#11
+284#nif284#Alexander Szymanowski#404#AAAAMMDD#M#11#11
+285#nif285#Javier Eraso#405#AAAAMMDD#M#17#11
+286#nif286#Rubén Pérez#406#AAAAMMDD#M#21#11
+287#nif287#Mikel Vesga#407#AAAAMMDD#M#23#11
+288#nif288#Óscar Rodríguez#408#AAAAMMDD#M#27#11
+289#nif289#Diego Rolan#409#AAAAMMDD#M#4#11
+290#nif290#Daniel Ojeda#410#AAAAMMDD#M#7#11
+291#nif291#Guido Carrillo#411#AAAAMMDD#M#9#11
+292#nif292#José Arnáiz#412#AAAAMMDD#M#16#11
+293#nif293#Sabin Merino#413#AAAAMMDD#M#18#11
+294#nif294#Michael Santos#414#AAAAMMDD#M#20#11
+295#nif295#Youssef En-Nesyrix#415#AAAAMMDD#M#20#11
+296#nif296#Javier Avilés#416#AAAAMMDD#M#33#11
+297#nif297#Koke#417#AAAAMMDD#M#1#12
+298#nif298#Oier Olazábal#418#AAAAMMDD#M#13#12
+299#nif299#Aitor Fernández#419#AAAAMMDD#M#25#12
+300#nif300#Toño#420#AAAAMMDD#M#3#12
+301#nif301#Rober Pier#421#AAAAMMDD#M#4#12
+302#nif302#Chema Rodríguez#422#AAAAMMDD#M#6#12
+303#nif303#Coke#423#AAAAMMDD#M#12#12
+304#nif304#Sergio Postigo#424#AAAAMMDD#M#15#12
+305#nif305#Erick Cabaco#425#AAAAMMDD#M#18#12
+306#nif306#Pedro López#426#AAAAMMDD#M#19#12
+307#nif307#Antonio Luna#427#AAAAMMDD#M#22#12
+308#nif308#Genís Montolio#428#AAAAMMDD#M#26#12
+309#nif309#Cheick Doukouré#429#AAAAMMDD#M#5#12
+310#nif310#Sanjin Prcic#430#AAAAMMDD#M#8#12
+311#nif311#Enis Bardhi#431#AAAAMMDD#M#10#12
+312#nif312#José Luis Morales#432#AAAAMMDD#M#11#12
+313#nif313#Samu García#433#AAAAMMDD#M#14#12
+314#nif314#Rubén Rochina#434#AAAAMMDD#M#16#12
+315#nif315#Nikola Vukcevic#435#AAAAMMDD#M#17#12
+316#nif316#José Campaña#436#AAAAMMDD#M#24#12
+317#nif317#Fran Manzanara#437#AAAAMMDD#M#27#12
+318#nif318#Armando Sadiku#438#AAAAMMDD#M#0#12
+319#nif319#Borja Mayoral#439#AAAAMMDD#M#2#12
+320#nif320#Moses Simon#440#AAAAMMDD#M#7#12
+321#nif321#Roger Martí#441#AAAAMMDD#M#9#12
+322#nif322#Raphael Dwamena#442#AAAAMMDD#M#20#12
+323#nif323#Emmanuel Boateng#443#AAAAMMDD#M#21#12
+324#nif324#Jason#444#AAAAMMDD#M#23#12
+325#nif325#Alberto García#445#AAAAMMDD#M#1#13
+326#nif326#Stole Dimitrievski#446#AAAAMMDD#M#13#13
+327#nif327#Miguel Ángel Morro#447#AAAAMMDD#M#30#13
+328#nif328#José León#448#AAAAMMDD#M#0#13
+329#nif329#Tito#449#AAAAMMDD#M#2#13
+330#nif330#Chechu Dorado#450#AAAAMMDD#M#5#13
+331#nif331#Jordi Amat#451#AAAAMMDD#M#16#13
+332#nif332#Luis Advíncula#452#AAAAMMDD#M#17#13
+333#nif333#Emiliano Velázquez#453#AAAAMMDD#M#20#13
+334#nif334#Abdoulaye Ba#454#AAAAMMDD#M#21#13
+335#nif335#Alejandro Gálvez#455#AAAAMMDD#M#23#13
+336#nif336#Sergio Akieme#456#AAAAMMDD#M#28#13
+337#nif337#Martín Pascual#457#AAAAMMDD#M#31#13
+338#nif338#Luis Meseguer#458#AAAAMMDD#M#33#13
+339#nif339#Álvaro Medrán#459#AAAAMMDD#M#4#13
+340#nif340#Gorka Elustondo#460#AAAAMMDD#M#6#13
+341#nif341#Álex Moreno#461#AAAAMMDD#M#7#13
+342#nif342#Gaël Kakuta#462#AAAAMMDD#M#10#13
+343#nif343#Giannelli Imbula#463#AAAAMMDD#M#12#13
+344#nif344#Álvaro García#464#AAAAMMDD#M#18#13
+345#nif345#José Pozo#465#AAAAMMDD#M#22#13
+346#nif346#Santiago Comesaña#466#AAAAMMDD#M#27#13
+347#nif347#Manuel Navarro#467#AAAAMMDD#M#34#13
+348#nif348#Ángel Algobia#468#AAAAMMDD#M#35#13
+349#nif349#Óscar Trejo#469#AAAAMMDD#M#8#13
+350#nif350#Raúl de Tomás#470#AAAAMMDD#M#9#13
+351#nif351#Adrián Embarba#471#AAAAMMDD#M#11#13
+352#nif352#Bebé#472#AAAAMMDD#M#14#13
+353#nif353#Álex Alegría#473#AAAAMMDD#M#15#13
+354#nif354#Lass#474#AAAAMMDD#M#19#13
+355#nif355#Javi Guerra#475#AAAAMMDD#M#24#13
+356#nif356#Sergio Moreno#476#AAAAMMDD#M#29#13
+357#nif357#Joel Robles#477#AAAAMMDD#M#1#14
+358#nif358#Pau López#478#AAAAMMDD#M#13#14
+359#nif359#Zouhair Feddal#479#AAAAMMDD#M#4#14
+360#nif360#Marc Bartra#480#AAAAMMDD#M#5#14
+361#nif361#Sidnei#481#AAAAMMDD#M#12#14
+362#nif362#Antonio Barragán#482#AAAAMMDD#M#19#14
+363#nif363#Júnior Firpo#483#AAAAMMDD#M#20#14
+364#nif364#Aissa Mandi#484#AAAAMMDD#M#23#14
+365#nif365#Edgar González#485#AAAAMMDD#M#32#14
+366#nif366#Francis#486#AAAAMMDD#M#2#14
+367#nif367#Javi García#487#AAAAMMDD#M#3#14
+368#nif368#Sergio Canales#488#AAAAMMDD#M#6#14
+369#nif369#Takashi Inui#489#AAAAMMDD#M#8#14
+370#nif370#Ryad Boudebouz#490#AAAAMMDD#M#10#14
+371#nif371#William Carvalho#491#AAAAMMDD#M#14#14
+372#nif372#Joaquín#492#AAAAMMDD#M#17#14
+373#nif373#Andrés Guardado#493#AAAAMMDD#M#18#14
+374#nif374#Giovani Lo Celso#494#AAAAMMDD#M#21#14
+375#nif375#Wilfrid Kaptoum#495#AAAAMMDD#M#34#14
+376#nif376#Diego Altamirano#496#AAAAMMDD#M#37#14
+377#nif377#Sergio León#497#AAAAMMDD#M#7#14
+378#nif378#Antonio Sanabria#498#AAAAMMDD#M#9#14
+379#nif379#Cristian Tello#499#AAAAMMDD#M#11#14
+380#nif380#Loren Morón#500#AAAAMMDD#M#16#14
+381#nif381#Robert#501#AAAAMMDD#M#33#14
+382#nif382#Keylor Navas#502#AAAAMMDD#M#1#15
+383#nif383#Kiko Casilla#503#AAAAMMDD#M#13#15
+384#nif384#Thibaut Courtois#504#AAAAMMDD#M#25#15
+385#nif385#Daniel Carvajal#505#AAAAMMDD#M#2#15
+386#nif386#Jesús Vallejo#506#AAAAMMDD#M#3#15
+387#nif387#Sergio Ramos#507#AAAAMMDD#M#4#15
+388#nif388#Raphael Varane#508#AAAAMMDD#M#5#15
+389#nif389#Nacho#509#AAAAMMDD#M#6#15
+390#nif390#Marcelo#510#AAAAMMDD#M#12#15
+391#nif391#Álvaro Odriozola#511#AAAAMMDD#M#19#15
+392#nif392#Sergio Reguilón#512#AAAAMMDD#M#23#15
+393#nif393#Adrian De la Fuente#513#AAAAMMDD#M#26#15
+394#nif394#3Javi Sánchez#514#AAAAMMDD#M#31#15
+395#nif395#Francisco Garcia#515#AAAAMMDD#M#37#15
+396#nif396#Toni Kroos#516#AAAAMMDD#M#8#15
+397#nif397#Luka Modric#51#AAAAMMDD#M#10#15
+398#nif398#Casemiro#518#AAAAMMDD#M#14#15
+399#nif399#Federico Valverde#519#AAAAMMDD#M#15#15
+400#nif400#Lucas Vázquez#520#AAAAMMDD#M#17#15
+401#nif401#Marcos Llorente#521#AAAAMMDD#M#18#15
+402#nif402#Marco Asensio#522#AAAAMMDD#M#20#15
+403#nif403#Isco#523#AAAAMMDD#M#22#15
+404#nif404#Dani Ceballos#524#AAAAMMDD#M#24#15
+405#nif405#Franchu#525#AAAAMMDD#M#34#15
+406#nif406#Álvaro Fidalgo#526#AAAAMMDD#M#36#15
+407#nif407#Mariano#527#AAAAMMDD#M#7#15
+408#nif408#Karim Benzema#528#AAAAMMDD#M#9#15
+409#nif409#Gareth Bale#529#AAAAMMDD#M#11#15
+410#nif410#Cristo González#530#AAAAMMDD#M#27#15
+411#nif411#Vinícius Júnior#531#AAAAMMDD#M#28#15
+412#nif412#Gerónimo Rulli#532#AAAAMMDD#M#1#16
+413#nif413#Miguel Ángel Moyá#533#AAAAMMDD#M#13#16
+414#nif414#Andoni Zubiaurre#534#AAAAMMDD#M#30#16
+415#nif415#Joseba Zaldua#535#AAAAMMDD#M#2#16
+416#nif416#Diego Llorente#536#AAAAMMDD#M#3#16
+417#nif417#Héctor Moreno#537#AAAAMMDD#M#6#16
+418#nif418#Aritz Elustondo#538#AAAAMMDD#M#15#16
+419#nif419#Andoni Gorosabel#539#AAAAMMDD#M#18#16
+420#nif420#Theo Hernández#540#AAAAMMDD#M#19#16
+421#nif421#Kévin Rodrigues#541#AAAAMMDD#M#20#16
+422#nif422#Raúl Navas#542#AAAAMMDD#M#22#16
+423#nif423#Robin Le Normand#543#AAAAMMDD#M#27#16
+424#nif424#Aihen Muñoz#544#AAAAMMDD#M#29#16
+425#nif425#Jon Guridi#545#AAAAMMDD#M#0#16
+426#nif426#David Concha#546#AAAAMMDD#M#0#16
+427#nif427#Asier Illarramendi#547#AAAAMMDD#M#4#16
+428#nif428#Igor Zubeldia#548#AAAAMMDD#M#5#16
+429#nif429#Mikel Merino#549#AAAAMMDD#M#8#16
+430#nif430#Adnan Januzaj#550#AAAAMMDD#M#11#16
+431#nif431#Rubén Pardo#551#AAAAMMDD#M#14#16
+432#nif432#David Zurutuza#552#AAAAMMDD#M#17#16
+433#nif433#Luca Sangalli#553#AAAAMMDD#M#23#16
+434#nif434#Ander Guevara#554#AAAAMMDD#M#26#16
+435#nif435#Näis Djouahra#555#AAAAMMDD#M#31#16
+436#nif436#Juanmi#556#AAAAMMDD#M#7#16
+437#nif437#Mikel Oyarzabal#557#AAAAMMDD#M#10#16
+438#nif438#Willian José#558#AAAAMMDD#M#12#16
+439#nif439#Martín Merquelanz#559#AAAAMMDD#M#16#16
+440#nif440#Jon Bautista#560#AAAAMMDD#M#21#16
+441#nif441#Sandro Ramírez#561#AAAAMMDD#M#24#16
+442#nif442#Roberto López#562#AAAAMMDD#M#28#16
+443#nif443#Jordi Masip#563#AAAAMMDD#M#1#17
+444#nif444#Yoel Rodríguez#564#AAAAMMDD#M#13#17
+445#nif445#Samuel Pérez#565#AAAAMMDD#M#26#17
+446#nif446#Moisés Delgado#566#AAAAMMDD#M#3#17
+447#nif447#Kiko Olivas#567#AAAAMMDD#M#4#17
+448#nif448#Fernando Calero#568#AAAAMMDD#M#5#17
+449#nif449#Alberto Guitián#569#AAAAMMDD#M#15#17
+450#nif450#Javi Moyano#570#AAAAMMDD#M#17#17
+451#nif451#Antoñito#571#AAAAMMDD#M#18#17
+452#nif452#Nacho#572#AAAAMMDD#M#22#17
+453#nif453#Mohammed Salisu#573#AAAAMMDD#M#18#17
+454#nif454#Roberto Corral#574#AAAAMMDD#M#34#17
+455#nif455#Javier Aparicio#575#AAAAMMDD#M#38#17
+456#nif456#Joaquín Fernández#576#AAAAMMDD#M#2#17
+457#nif457#Luismi#577#AAAAMMDD#M#6#17
+458#nif458#Borja Fernández#578#AAAAMMDD#M#8#17
+459#nif459#Rubén Alcaraz#579#AAAAMMDD#M#14#17
+460#nif460#Antonio Cotán#580#AAAAMMDD#M#16#17
+461#nif461#Toni Villa#581#AAAAMMDD#M#19#17
+462#nif462#Míchel#582#AAAAMMDD#M#21#17
+463#nif463#Anuar Mohamed#583#AAAAMMDD#M#23#17
+464#nif464#Keko#584#AAAAMMDD#M#24#17
+465#nif465#Pablo Muñoz#585#AAAAMMDD#M#31#17
+466#nif466#Leo Suárez#586#AAAAMMDD#M#32#17
+467#nif467#Ivi#587#AAAAMMDD#M#7#17
+468#nif468#Enes Ünal#588#AAAAMMDD#M#9#17
+469#nif469#Óscar Plano#589#AAAAMMDD#M#10#17
+470#nif470#Daniele Verde#590#AAAAMMDD#M#11#17
+471#nif471#Duje Cop#591#AAAAMMDD#M#20#17
+472#nif472#Miguel De la Fuente#592#AAAAMMDD#M#27#17
+473#nif473#Kuki Zalazar#593#AAAAMMDD#M#39#17
+474#nif474#Tomás Vaclik#594#AAAAMMDD#M#1#18
+475#nif475#Juan Soriano#595#AAAAMMDD#M#13#18
+476#nif476#Lucho#596#AAAAMMDD#M#38#18
+477#nif477#Sergi Gómez#597#AAAAMMDD#M#3#18
+478#nif478#Simon Kjaer#598#AAAAMMDD#M#4#18
+479#nif479#Daniel Carriço#599#AAAAMMDD#M#6#18
+480#nif480#Aleix Vidal#600#AAAAMMDD#M#11#18
+481#nif481#Sergio Escudero#601#AAAAMMDD#M#18#18
+482#nif482#Guilherme Arana#602#AAAAMMDD#M#23#18
+483#nif483#Joris Gnagnon#603#AAAAMMDD#M#24#18
+484#nif484#Gabriel Mercado#604#AAAAMMDD#M#25#18
+485#nif485#Juan Berrocal#605#AAAAMMDD#M#37#18
+486#nif486#Javier Vázquez#606#AAAAMMDD#M#40#18
+487#nif487#Ibrahim Amadou#607#AAAAMMDD#M#5#18
+488#nif488#Roque Mesa#608#AAAAMMDD#M#7#18
+489#nif489#Éver Banega#609#AAAAMMDD#M#10#18
+490#nif490#Maxime Gonalons#610#AAAAMMDD#M#15#18
+491#nif491#Jesús Navas#611#AAAAMMDD#M#16#18
+492#nif492#Pablo Sarabia#612#AAAAMMDD#M#17#18
+493#nif493#Borja Lasso#613#AAAAMMDD#M#20#18
+494#nif494#Franco Vázquez#614#AAAAMMDD#M#22#18
+495#nif495#José Mena#615#AAAAMMDD#M#29#18
+496#nif496#Nolito#616#AAAAMMDD#M#8#18
+497#nif497#Wissam Ben Yedder#617#AAAAMMDD#M#9#18
+498#nif498#André Silva#618#AAAAMMDD#M#12#18
+499#nif499#Luis Muriel#619#AAAAMMDD#M#14#18
+500#nif500#Quincy Promes#620#AAAAMMDD#M#21#18
+501#nif501#Jaume Doménech#621#AAAAMMDD#M#1#19
+502#nif502#Neto	#622#AAAAMMDD#M#13#19
+503#nif503#Rúben Vezo#623#AAAAMMDD#M#3#19
+504#nif504#Jeison Murillo#624#AAAAMMDD#M#4#19
+505#nif505#Gabriel#625#AAAAMMDD#M#5#19
+506#nif506#Mouctar Diakhaby#626#AAAAMMDD#M#12#19
+507#nif507#José Gayá#627#AAAAMMDD#M#14#19
+508#nif508#Toni Lato#628#AAAAMMDD#M#15#19
+509#nif509#Cristiano Piccini#629#AAAAMMDD#M#21#19
+510#nif510#Ezequiel Garay#630#AAAAMMDD#M#24#19
+511#nif511#Hugo Guillamón#631#AAAAMMDD#M#36#19
+512#nif512#Geoffrey Kondogbia#632#AAAAMMDD#M#6#19
+513#nif513#Gonçalo Guedes#633#AAAAMMDD#M#7#19
+514#nif514#Carlos Soler#634#AAAAMMDD#M#8#19
+515#nif515#Daniel Parejo#635#AAAAMMDD#M#10#19
+516#nif516#Denis Cheryshev#636#AAAAMMDD#M#11#19
+517#nif517#Francis Coquelin#637#AAAAMMDD#M#17#19
+518#nif518#Daniel Wass#638#AAAAMMDD#M#18#19
+519#nif519#Ferrán Torres#639#AAAAMMDD#M#20#19
+520#nif520#Uros Racic#640#AAAAMMDD#M#26#19
+521#nif521#Lee Kang-In#641#AAAAMMDD#M#34#19
+522#nif522#Kevin Gameiro#642#AAAAMMDD#M#9#19
+523#nif523#Rodrigo Moreno#643#AAAAMMDD#M#19#19
+524#nif524#Santi Mina#644#AAAAMMDD#M#22#19
+525#nif525#Michy Batshuayi#645#AAAAMMDD#M#23#19
+526#nif526#Álex Blanco#646#AAAAMMDD#M#30#19
+527#nif527#Serio Asenjo#647#AAAAMMDD#M#1#20
+528#nif528#Andrés Fernández#648#AAAAMMDD#M#13#20
+529#nif529#Mariano Barbosa#649#AAAAMMDD#M#25#20
+530#nif530#Mario Gaspar#650#AAAAMMDD#M#2#20
+531#nif531#Álvaro González#651#AAAAMMDD#M#3#20
+532#nif532#Ramiro Funes Mori#652#AAAAMMDD#M#4#20
+533#nif533#Víctor Ruiz#653#AAAAMMDD#M#6#20
+534#nif534#Jaume Costa#654#AAAAMMDD#M#11#20
+535#nif535#Miguelón#655#AAAAMMDD#M#15#20
+536#nif536#Daniele Bonera#656#AAAAMMDD#M#23#20
+537#nif537#Miguel Layún#657#AAAAMMDD#M#24#20
+538#nif538#Xavier Quintillá#658#AAAAMMDD#M#39#20
+539#nif539#Santiago Cáseres#659#AAAAMMDD#M#5#20
+540#nif540#Pablo Fornals#660#AAAAMMDD#M#8#20
+541#nif541#Manu Trigueros#661#AAAAMMDD#M#14#20
+542#nif542#Alfonso Pedraza#662#AAAAMMDD#M#16#20
+543#nif543#Javi Fuego#663#AAAAMMDD#M#1#20
+544#nif544#Santi Cazorla#664#AAAAMMDD#M#19#20
+545#nif545#Manuel Iturra#665#AAAAMMDD#M#20#20
+546#nif546#Bruno Soriano#666#AAAAMMDD#M#21#20
+547#nif547#Manuel Morlanes#667#AAAAMMDD#M#28#20
+548#nif548#Samuel Chukwueze#668#AAAAMMDD#M#30#20
+549#nif549#Gerard Moreno#669#AAAAMMDD#M#7#20
+550#nif550#Carlos Bacca#670#AAAAMMDD#M#9#20
+551#nif551#Nicola Sansone#671#AAAAMMDD#M#10#20
+552#nif552#Karl Toko Ekambi#672#AAAAMMDD#M#17#20
+553#nif553#Raba#673#AAAAMMDD#M#22#20

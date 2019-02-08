@@ -1,6 +1,8 @@
 package modelo;
 
-public class Equipo {
+public class Equipo implements Comparable<Equipo>{
+	
+	
 
 	private int id;
 	private String nombreCorto;
@@ -12,6 +14,11 @@ public class Equipo {
 		this.nombreCorto = nombreCorto;
 		this.nombre = nombre;
 	}
+	@Override
+	public String toString() {
+		return "Equipo: "  + this.getId() +"  "+ this.getNombre() + " " +this.getNombreCorto() ;
+	}
+	
 
 	public Equipo() {
 
@@ -39,6 +46,18 @@ public class Equipo {
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	@Override
+	public int compareTo(Equipo o) {
+		
+		if(this.getId() < o.getId())
+			return 1;
+		
+		else if(this.getId() > o.getId())
+			return -1;
+		else
+			return 0;
+		
 	}
 
 }

@@ -2,6 +2,8 @@ package modelo;
 
 public class Partido {
 
+	
+
 	private int id;
 	private int jornada;
 	private String eLocal;
@@ -24,6 +26,13 @@ public class Partido {
 		this.golesVisitante = golesVisitante;
 	}
 
+	
+	@Override
+	public String toString() {
+		return "Partido [id=" + id + ", jornada=" + jornada + ", eLocal=" + eLocal + ", golesLocal=" + golesLocal
+				+ ", eVisitante=" + eVisitante + ", golesVisitante=" + golesVisitante + "]";
+	}
+	
 	public int getId() {
 		return id;
 	}

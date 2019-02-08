@@ -3,31 +3,27 @@ package modelo;
 import java.time.LocalDate;
 import java.util.Random;
 
-public class Persona {
+public class Persona implements Comparable<Persona>, Humano {
 	private String nif;
-	 private String nombre;
-	 private int longitudPaso;
-	 private String fecha_nac; // AAAAMMDD
-	 private char sexo; // 'M' 'F'
-	 private Persona[] hijosBiologicos;
-	 private Persona padre;
-	 private Persona madre;
-	 
-	 
-	 public Persona() {
+	private String nombre;
+	private int longitudPaso;
+	private String fecha_nac; // AAAAMMDD
+	private char sexo; // 'M' 'F'
+	private Persona[] hijosBiologicos;
+	private Persona padre;
+	private Persona madre;
+
+	public Persona() {
 		super();
 		this.nif = "12345678F";
-		this.nombre="Anónimo";
-		this.fecha_nac=LocalDate.class.toString();
-		this.longitudPaso=33;
-		
-	
-		
+		this.nombre = "Anónimo";
+		this.fecha_nac = LocalDate.class.toString();
+		this.longitudPaso = 33;
+
 	}
 
-	 
-	 public Persona(String nif, String nombre, int longitudPaso, String fecha_nac, char sexo,
-			Persona[] hijosBiologicos, Persona padre, Persona madre) {
+	public Persona(String nif, String nombre, int longitudPaso, String fecha_nac, char sexo, Persona[] hijosBiologicos,
+			Persona padre, Persona madre) {
 		super();
 		this.nif = nif;
 		this.nombre = nombre;
@@ -39,28 +35,32 @@ public class Persona {
 		this.madre = madre;
 	}
 
-
 	public Persona(String nif, String nombre, int longitudPaso, String fecha_nac, char sexo) {
 		super();
 		this.nif = nif;
 		this.nombre = nombre;
 		this.longitudPaso = longitudPaso;
-		this.fecha_nac =fecha_nac;
+		this.fecha_nac = fecha_nac;
 		this.sexo = sexo;
 	}
 
-	public int caminar (int numPasos) {
-		 
-		 double a=9.0;
-		 double raiz = Math.sqrt(a);
-		 
-		 Random miRandom = new Random(); // Crea un objeto de la clase "Random"
-		 
-		 int valor = miRandom.nextInt();
-		 
-		 return numPasos * longitudPaso / 100;
-		 
-	 }
+	public String toString() {
+		return this.getNombre();
+
+	}
+
+	public int caminar(int numPasos) {
+
+		double a = 9.0;
+		double raiz = Math.sqrt(a);
+
+		Random miRandom = new Random(); // Crea un objeto de la clase "Random"
+
+		int valor = miRandom.nextInt();
+
+		return numPasos * longitudPaso / 100;
+
+	}
 
 	public char getSexo() {
 		return sexo;
@@ -99,7 +99,8 @@ public class Persona {
 	}
 
 	public void setNif(String nif) {
-		this.nif = nif;  // -- nif de la derecha es que se pasa por parámetro. Es diferente a la propiedad nif
+		this.nif = nif; // -- nif de la derecha es que se pasa por parámetro. Es diferente a la
+						// propiedad nif
 	}
 
 	public String getNombre() {
@@ -125,4 +126,25 @@ public class Persona {
 	public void setFecha_nac(String fecha_nac) {
 		this.fecha_nac = fecha_nac;
 	}
+
+	@Override
+	public int compareTo(Persona otro) {
+		if (this.longitudPaso > otro.longitudPaso)
+			return 1;
+		else if (this.longitudPaso > otro.longitudPaso)
+			return -1;
+		else
+			return 0;
+	}
+
+	@Override
+	public boolean dormir(int horas) {
+		return false;
+	}
+
+	@Override
+	public float alimentarse(int calorias) {
+		return 0;
+	}
+
 }
